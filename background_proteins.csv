@@ -1,4 +1,4 @@
-Protein,Gene,Chromo,Start,End
+refseq,gene,chrom,start,end
 YP_001798599,cce_5219,Plasmid_A,4626,4928
 YP_001798600,cce_5220,Plasmid_A,5059,5703
 YP_001798602,cce_5222,Plasmid_A,6096,6728
