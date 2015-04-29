@@ -1,6 +1,7 @@
 # get arguments (list of proteins)
 args <- commandArgs(trailingOnly = TRUE)
 
+setwd(args[1])
 library(rjson)
 
 findNode <- function(parent, name) {
@@ -34,10 +35,8 @@ findLeaves <- function(node) {
 data <- fromJSON(file='dendro_row.json', method='C')
 count <- 0
 refseq <- rep(NA,100)
-findLeaves(findNode(data, args[1]))
+findLeaves(findNode(data, args[2]))
 refSeqIds <- na.omit(refseq)
-
-# refSeqIds <- unlist(strsplit (args[1],","))
 
 if (!is.null(refSeqIds)) {
   # READS THE BACKGROUND FILE (ALL PROTEINS)
@@ -146,6 +145,6 @@ if (!is.null(refSeqIds)) {
     idx <- which(k$names %in% RESULT[,'geneset'])
     desc <- data.frame('geneset'=k$names[idx],'desc'=k$desc[idx])
     RESULT <- merge(RESULT, desc, all.x = TRUE)
-    write.table(RESULT, sep=",", file = paste0("enrich_",args[1],".csv"), row.names=FALSE)
+    write.table(RESULT, sep=",", file = paste0("enrich_",args[2],".csv"), row.names=FALSE)
   }
 }
