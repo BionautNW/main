@@ -1,33 +1,69 @@
 # get arguments (list of proteins)
 args <- commandArgs(trailingOnly = TRUE)
 
-refSeqIds <- unlist(strsplit (args[1],","))
+library(rjson)
+
+findNode <- function(parent, name) {
+  if (!is.null(parent$name) && parent$name == name) {
+    return (parent)
+  } else {
+    if (!is.null(parent$children)) {
+      len <- length(parent$children)
+      for (i in 1:len) {
+        node <- findNode(parent$children[[i]], name)
+        if (!is.null(node)) return (node)
+      }
+    }
+    else return (NULL);
+  }
+}
+
+findLeaves <- function(node) {
+  if (!is.null(node$children)) {
+    len <- length(node$children)
+    for (i in 1:len) {
+      findLeaves(node$children[[i]])
+    }
+  } else {
+    count <<- count + 1
+    refseq[count] <<- unlist(strsplit(node$name, "[.]"))[1]
+    print (unlist(strsplit(node$name, "[.]"))[1])
+  }
+}
+
+data <- fromJSON(file='dendro_row.json', method='C')
+count <- 0
+refseq <- rep(NA,100)
+findLeaves(findNode(data, args[1]))
+refSeqIds <- na.omit(refseq)
+
+# refSeqIds <- unlist(strsplit (args[1],","))
 
 if (!is.null(refSeqIds)) {
   # READS THE BACKGROUND FILE (ALL PROTEINS)
-  NAMER=read.csv(args[3],sep=",",header=TRUE)
+  NAMER=read.csv('background_proteins.csv',sep=",",header=TRUE)
   
   temp = sub("(.*)\\.\\d+", "\\1", refSeqIds)
-  if (sum(NAMER$Protein %in% temp)>0) {
-    SOURCE = data.frame(Protein=temp)
-  } else if (sum(NAMER$Gene %in% temp)>0) {
-    SOURCE = data.frame(Gene=temp)
+  if (sum(NAMER$refseq %in% temp)>0) {
+    SOURCE = data.frame(refseq=temp)
+  } else if (sum(NAMER$gene %in% temp)>0) {
+    SOURCE = data.frame(gene=temp)
   } else {
-    next
+    
   }
   
   SOURCE = merge(SOURCE, NAMER, all.x = TRUE)
   SOURCE = unique(SOURCE)
-  TARGET = unique(SOURCE$Gene[complete.cases(SOURCE$Gene)])
+  TARGET = unique(SOURCE$gene[complete.cases(SOURCE$gene)])
   
   # READS THE DATABASE FILE
-  load(args[4])
+  load('genesets.RData')
   
   # #########################################################
   # ### F-1) added preprocessing for gathering the number of genes commonly included in background and pathway (annotation).
   # #########################################################
   # USE THE GENE COLUMN AS INPUT
-  BACK = unique(NAMER$Gene)
+  BACK = unique(NAMER$gene)
   for (i in 1:length(k$names)) {
     thisname = k$names[i]
     thissize = k$sizes[i]
@@ -107,6 +143,9 @@ if (!is.null(refSeqIds)) {
     }
 
     RESULT <- cbind(RESULT, 'bh_pvalue'=new.p)
-    write.table(RESULT, sep=",", file = paste0("temp/enrich_",args[2],".csv"), row.names=FALSE)
+    idx <- which(k$names %in% RESULT[,'geneset'])
+    desc <- data.frame('geneset'=k$names[idx],'desc'=k$desc[idx])
+    RESULT <- merge(RESULT, desc, all.x = TRUE)
+    write.table(RESULT, sep=",", file = paste0("enrich_",args[1],".csv"), row.names=FALSE)
   }
 }
