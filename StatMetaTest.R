@@ -1,13 +1,47 @@
-# get arguments (1: sample IDs, 2: node name, 3: filename of metadata)
+# get arguments (1: a working directory of a source file, 2: node name)
 args <- commandArgs(trailingOnly = TRUE)
 
-sampleIds <- unlist(strsplit (args[1],","))
+setwd(args[1])
+
+findNode <- function(parent, name) {
+  if (!is.null(parent$name) && parent$name == name) {
+    return (parent)
+  } else {
+    if (!is.null(parent$children)) {
+      len <- length(parent$children)
+      for (i in 1:len) {
+        node <- findNode(parent$children[[i]], name)
+        if (!is.null(node)) return (node)
+      }
+    }
+    else return (NULL);
+  }
+}
+
+findLeaves <- function(node) {
+  if (!is.null(node$children)) {
+    len <- length(node$children)
+    for (i in 1:len) {
+      findLeaves(node$children[[i]])
+    }
+  } else {
+    count <<- count + 1
+    sample[count] <<- unlist(strsplit(node$name, "[.]"))[1]
+    print (unlist(strsplit(node$name, "[.]"))[1])
+  }
+}
+
+data <- fromJSON(file='dendro_col.json', method='C')
+count <- 0
+sample <- rep(NA,100)
+findLeaves(findNode(data, args[2]))
+sampleIds <- na.omit(sample)
+
 nodeName <- args[2]
-metaDataset <- args[3]
 
 ## read the metadata files (_data: data, _config: configurations for each column)
-metadata <- read.csv(paste0("metadata/",metaDataset,"_data.csv"))
-metaconfig <- read.csv(paste0("metadata/",metaDataset,"_config.csv"))
+metadata <- read.csv("metadata.csv")
+metaconfig <- read.csv("metaconfig.csv")
 
 #' Run a statistical test whether two groups (with continous values) are significantly different or not.
 #' 
@@ -71,7 +105,7 @@ null_string <- c("","[Not Applicable]","[Not Available]","[Pending]","[]")
 
 target_group <- sampleIds[sampleIds != ""]
 ## check the idx for target group
-if (grepl("TCGA",metaDataset)) {
+if (grepl("TCGA",target_group[1])) {
   match_idx <- pmatch(gsub("(\\w*)\\.(\\w*)\\.(\\d*)\\.(\\d*)", "\\2\\-\\3\\-\\4", target_group), eval(parse(text=paste0('metadata$',unique_id))), dup = FALSE)  
 } else {
   match_idx <- pmatch(target_group, eval(parse(text=paste0('metadata$',unique_id))), dup = FALSE)  
@@ -182,6 +216,6 @@ for (j in (1:dim(statTestResult)[1])) {
 }
 str = paste0(str, ']', ',"node":"', nodeName, '"}')
 
-fileConn<-file(paste0("temp/stat_",nodeName,".json"))
+fileConn<-file(paste0("stat_",nodeName,".json"))
 writeLines(str, fileConn)
 close(fileConn)
