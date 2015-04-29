@@ -2,6 +2,7 @@
 args <- commandArgs(trailingOnly = TRUE)
 
 setwd(args[1])
+library(rjson)
 
 findNode <- function(parent, name) {
   if (!is.null(parent$name) && parent$name == name) {
