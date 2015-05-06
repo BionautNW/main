@@ -143,7 +143,7 @@ if (!is.null(refSeqIds)) {
 
     RESULT <- cbind(RESULT, 'bh_pvalue'=new.p)
     idx <- which(k$names %in% RESULT[,'geneset'])
-    desc <- data.frame('geneset'=k$names[idx],'desc'=k$desc[idx])
+    desc <- data.frame('geneset'=k$names[idx],'desc'=k$desc[idx], 'link'=k$links[idx])
     RESULT <- merge(RESULT, desc, all.x = TRUE)
     write.table(RESULT, sep=",", file = paste0("enrich_",args[2],".csv"), row.names=FALSE)
   }
