@@ -18,7 +18,7 @@
     "@type":"java.util.ArrayList",
     "@items":[
       {
-        "@id":3,
+        "@id":2,
         "@type":"gov.pnnl.activedata.data.DataNode",
         "id":102,
         "groupId":-1,
@@ -26,7 +26,6 @@
         "x":960.0,
         "y":500.0,
         "type":{
-          "@id":2,
           "name":"PROTEIN",
           "ordinal":17
         },
@@ -52,7 +51,7 @@
   "nodeBundle":{
     "@type":"java.util.HashMap",
     "@keys":[
-      {"@ref":3}
+      {"@ref":2}
     ],
     "@items":[
       {
@@ -66,112 +65,7 @@
               "@items":[
                 {
                   "@type":"gov.pnnl.activedata.data.DataNode",
-                  "id":1000005,
-                  "groupId":-1,
-                  "isUserData":false,
-                  "x":0.0,
-                  "y":0.0,
-                  "type":{"@ref":2},
-                  "score":1.0,
-                  "data":"Protein @ NCBI\r\nhypothetical protein cce_4662 [Cyanothece sp. ATCC 51142]",
-                  "label":"Protein @ NCBI",
-                  "badge":0,
-                  "sections":{
-                    "@type":"java.util.ArrayList",
-                    "@items":[
-                      {
-                        "@type":"gov.pnnl.activedata.data.Section",
-                        "label":"",
-                        "nameValues":{
-                          "@type":"java.util.ArrayList",
-                          "@items":[
-                            {
-                              "@type":"gov.pnnl.activedata.data.NameValue",
-                              "name":"",
-                              "value":"hypothetical protein cce_4662 [Cyanothece sp. ATCC 51142]"
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "@type":"gov.pnnl.activedata.data.Section",
-                        "label":"",
-                        "nameValues":{
-                          "@type":"java.util.ArrayList",
-                          "@items":[
-                            {
-                              "@type":"gov.pnnl.activedata.data.NameValue",
-                              "name":"",
-                              "value":""
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "@type":"gov.pnnl.activedata.data.Section",
-                        "label":"",
-                        "nameValues":{
-                          "@type":"java.util.ArrayList",
-                          "@items":[
-                            {
-                              "@type":"gov.pnnl.activedata.data.NameValue",
-                              "name":"PROTEIN:YP_001806076",
-                              "value":"hypothetical protein cce_4662 [Cyanothece sp. ATCC 51142]"
-                            }
-                          ]
-                        }
-                      }
-                    ]
-                  },
-                  "listValues":null,
-                  "explainers":{
-                    "@type":"java.util.ArrayList",
-                    "@items":[
-                      "<ul class='back-list'>",
-                      "<li class='back-list-item'>Description: hypothetical protein cce_4662 [Cyanothece sp. ATCC 51142]</li>",
-                      "<li class='back-list-item'>Accession: YP_001806076</li>",
-                      "<li class='back-list-item'>Parent organism: Cyanothece sp. ATCC 51142</li>",
-                      "</ul>"
-                    ]
-                  },
-                  "views":null,
-                  "attributes":{
-                    "@type":"java.util.HashMap",
-                    "dismisser":"NCBI_Dismisser"
-                  },
-                  "buttons":{
-                    "@type":"java.util.HashMap",
-                    "fasta":"window.open(\"http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nucleotide&id=YP_001806076&rettype=fasta&retmode=txt\")",
-                    "ncbi":"window.open(\"http://www.ncbi.nlm.nih.gov/protein/YP_001806076?report=genpept\")"
-                  }
-                }
-              ]
-            },
-            "nodesToUpdate":{
-              "@type":"java.util.ArrayList"
-            },
-            "edgeList":{
-              "@type":"java.util.ArrayList"
-            },
-            "recommendations":null,
-            "groupList":{
-              "@type":"java.util.ArrayList"
-            },
-            "recordSetList":{
-              "@type":"java.util.ArrayList"
-            },
-            "canvas":null,
-            "triggerNode":null
-          },
-          {
-            "@type":"gov.pnnl.activedata.data.Bundle",
-            "nodeId":102,
-            "nodeList":{
-              "@type":"java.util.ArrayList",
-              "@items":[
-                {
-                  "@type":"gov.pnnl.activedata.data.DataNode",
-                  "id":1000006,
+                  "id":1000008,
                   "groupId":-1,
                   "isUserData":false,
                   "x":0.0,
