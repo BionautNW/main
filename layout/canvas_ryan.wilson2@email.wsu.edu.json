@@ -18,7 +18,7 @@
     "@type":"java.util.ArrayList",
     "@items":[
       {
-        "@id":3,
+        "@id":7,
         "@type":"gov.pnnl.activedata.data.DataNode",
         "id":102,
         "groupId":-1,
@@ -26,7 +26,7 @@
         "x":449.9867998063943,
         "y":519.5999999999999,
         "type":{
-          "@id":2,
+          "@id":6,
           "name":"PROTEIN",
           "ordinal":17
         },
@@ -174,6 +174,57 @@
                   }
                 ]
               }
+            },
+            {
+              "@id":3,
+              "@type":"gov.pnnl.activedata.data.Section",
+              "label":"",
+              "nameValues":null
+            },
+            {
+              "@id":2,
+              "@type":"gov.pnnl.activedata.data.Section",
+              "label":"Citation",
+              "nameValues":{
+                "@type":"java.util.ArrayList",
+                "@items":[
+                  {
+                    "@type":"gov.pnnl.activedata.data.NameValue",
+                    "name":"Year",
+                    "value":"2015"
+                  },
+                  {
+                    "@type":"gov.pnnl.activedata.data.NameValue",
+                    "name":"Journal",
+                    "value":"Microbiological research"
+                  },
+                  {
+                    "@type":"gov.pnnl.activedata.data.NameValue",
+                    "name":"Title",
+                    "value":"Global transcriptome analysis of salt acclimated Prochlorococcus AS9601."
+                  },
+                  {
+                    "@type":"gov.pnnl.activedata.data.NameValue",
+                    "name":"Author",
+                    "value":"Al-Hosani, S  and Oudah, MM  and Henschel, A  and Yousef, LF "
+                  }
+                ]
+              }
+            },
+            {
+              "@id":1,
+              "@type":"gov.pnnl.activedata.data.Section",
+              "label":"",
+              "nameValues":{
+                "@type":"java.util.ArrayList",
+                "@items":[
+                  {
+                    "@type":"gov.pnnl.activedata.data.NameValue",
+                    "name":"LITERATURE:26070689",
+                    "value":"(2015) Global transcriptome analysis of salt acclimated Prochlorococcus AS9601."
+                  }
+                ]
+              }
             }
           ]
         },
@@ -184,7 +235,8 @@
           "@type":"java.util.LinkedHashMap",
           "PROTEIN:YP_001806076":"hypothetical protein cce_4662 [Cyanothece sp. ATCC 51142]",
           "LITERATURE:26079396":"(2015) Visualizing the appearance and disappearance of the attractor of differentiation using Raman spectral imaging.",
-          "LITERATURE:26076386":"(2015) Towards New Drug Targets? Function Prediction of Putative Proteins of Neisseria meningitidis MC58 and Their Virulence Characterization."
+          "LITERATURE:26076386":"(2015) Towards New Drug Targets? Function Prediction of Putative Proteins of Neisseria meningitidis MC58 and Their Virulence Characterization.",
+          "LITERATURE:26070689":"(2015) Global transcriptome analysis of salt acclimated Prochlorococcus AS9601."
         },
         "buttons":{
           "@type":"java.util.HashMap"
@@ -197,7 +249,8 @@
   "nodeBundle":{
     "@type":"java.util.HashMap",
     "@keys":[
-      {"@ref":3}
+      null,
+      {"@ref":7}
     ],
     "@items":[
       {
@@ -211,12 +264,235 @@
               "@items":[
                 {
                   "@type":"gov.pnnl.activedata.data.DataNode",
-                  "id":1000009,
+                  "id":1000014,
                   "groupId":-1,
                   "isUserData":false,
                   "x":0.0,
                   "y":0.0,
-                  "type":{"@ref":2},
+                  "type":{
+                    "@id":4,
+                    "name":"ENTITY",
+                    "ordinal":11
+                  },
+                  "score":0.0,
+                  "data":"Neisseria meningitidis is a Gram-negative aerobic diplococcus, responsible for a variety of meningococcal diseases. The genome of N. meningitidis MC58 is comprised of 2114 genes that are translated into 1953 proteins. The 698 genes (?35%) encode hypothetical proteins (HPs), because no experimental evidence of their biological functions are available. Analyses of these proteins are important to understand their functions in the metabolic networks and may lead to the discovery of novel drug targets against the infections caused by N. meningitidis. This study aimed at the identification and categorization of each HP present in the genome of N. meningitidis MC58 using computational tools. Functions of 363 proteins were predicted with high accuracy among the annotated set of HPs investigated. The reliably predicted 363 HPs were further grouped into 41 different classes of proteins, based on their possible roles in cellular processes such as metabolism, transport, and replication. Our studies revealed that 22 HPs may be involved in the pathogenesis caused by this microorganism. The top two HPs with highest virulence scores were subjected to molecular dynamics (MD) simulations to better understand their conformational behavior in a water environment. We also compared the MD simulation results with other virulent proteins present in N. meningitidis. This study broadens our understanding of the mechanistic pathways of pathogenesis, drug resistance, tolerance, and adaptability for host immune responses to N. meningitidis.",
+                  "label":"Towards New Drug Targets? Function Prediction of Putative Proteins of Neisseria meningitidis MC58 and Their Virulence Characterization.",
+                  "badge":0,
+                  "sections":{
+                    "@type":"java.util.ArrayList",
+                    "@items":[
+                      {
+                        "@type":"gov.pnnl.activedata.data.Section",
+                        "label":"",
+                        "nameValues":null
+                      },
+                      {
+                        "@type":"gov.pnnl.activedata.data.Section",
+                        "label":"Citation",
+                        "nameValues":{
+                          "@type":"java.util.ArrayList",
+                          "@items":[
+                            {
+                              "@type":"gov.pnnl.activedata.data.NameValue",
+                              "name":"Year",
+                              "value":"2015"
+                            },
+                            {
+                              "@type":"gov.pnnl.activedata.data.NameValue",
+                              "name":"Journal",
+                              "value":"Omics : a journal of integrative biology"
+                            },
+                            {
+                              "@type":"gov.pnnl.activedata.data.NameValue",
+                              "name":"Title",
+                              "value":"Towards New Drug Targets? Function Prediction of Putative Proteins of Neisseria meningitidis MC58 and Their Virulence Characterization."
+                            },
+                            {
+                              "@type":"gov.pnnl.activedata.data.NameValue",
+                              "name":"Author",
+                              "value":"Shahbaaz, M  and Bisetty, K  and Ahmad, F  and Hassan, MI "
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "@type":"gov.pnnl.activedata.data.Section",
+                        "label":"",
+                        "nameValues":{
+                          "@type":"java.util.ArrayList",
+                          "@items":[
+                            {
+                              "@type":"gov.pnnl.activedata.data.NameValue",
+                              "name":"LITERATURE:26076386",
+                              "value":"(2015) Towards New Drug Targets? Function Prediction of Putative Proteins of Neisseria meningitidis MC58 and Their Virulence Characterization."
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  "listValues":null,
+                  "explainers":{
+                    "@type":"java.util.ArrayList",
+                    "@items":[
+                      "<div class='back-list-Container'>Abstract:",
+                      "<p class='back-list'>Neisseria meningitidis is a Gram-negative aerobic diplococcus, responsible for a variety of meningococcal diseases. The genome of N. meningitidis MC58 is comprised of 2114 genes that are translated into 1953 proteins. The 698 genes (?35%) encode hypothetical proteins (HPs), because no experimental evidence of their biological functions are available. Analyses of these proteins are important to understand their functions in the metabolic networks and may lead to the discovery of novel drug targets against the infections caused by N. meningitidis. This study aimed at the identification and categorization of each HP present in the genome of N. meningitidis MC58 using computational tools. Functions of 363 proteins were predicted with high accuracy among the annotated set of HPs investigated. The reliably predicted 363 HPs were further grouped into 41 different classes of proteins, based on their possible roles in cellular processes such as metabolism, transport, and replication. Our studies revealed that 22 HPs may be involved in the pathogenesis caused by this microorganism. The top two HPs with highest virulence scores were subjected to molecular dynamics (MD) simulations to better understand their conformational behavior in a water environment. We also compared the MD simulation results with other virulent proteins present in N. meningitidis. This study broadens our understanding of the mechanistic pathways of pathogenesis, drug resistance, tolerance, and adaptability for host immune responses to N. meningitidis.",
+                      "</p></div>"
+                    ]
+                  },
+                  "views":null,
+                  "attributes":{
+                    "@type":"java.util.HashMap"
+                  },
+                  "buttons":{
+                    "@type":"java.util.HashMap",
+                    "gopub":"window.open(\"http://www.ncbi.nlm.nih.gov/pubmed/26076386\")"
+                  }
+                }
+              ]
+            },
+            "nodesToUpdate":{
+              "@type":"java.util.ArrayList"
+            },
+            "edgeList":{
+              "@type":"java.util.ArrayList"
+            },
+            "recommendations":null,
+            "groupList":{
+              "@type":"java.util.ArrayList"
+            },
+            "recordSetList":{
+              "@type":"java.util.ArrayList"
+            },
+            "canvas":null,
+            "triggerNode":null
+          },
+          {
+            "@type":"gov.pnnl.activedata.data.Bundle",
+            "nodeId":102,
+            "nodeList":{
+              "@type":"java.util.ArrayList",
+              "@items":[
+                {
+                  "@type":"gov.pnnl.activedata.data.DataNode",
+                  "id":1000015,
+                  "groupId":-1,
+                  "isUserData":false,
+                  "x":0.0,
+                  "y":0.0,
+                  "type":{"@ref":4},
+                  "score":0.0,
+                  "data":"Using Raman spectral imaging, we visualized the cell state transition during differentiation and constructed hypothetical potential landscapes for attractors of cellular states on a state space composed of parameters related to the shape of the Raman spectra. As models of differentiation, we used the myogenic C2C12 cell line and mouse embryonic stem cells. Raman spectral imaging can validate the amounts and locations of multiple cellular components that describe the cell state such as proteins, nucleic acids, and lipids; thus, it can report the state of a single cell. Herein, we visualized the cell state transition during differentiation using Raman spectral imaging of cell nuclei in combination with principal component analysis. During differentiation, cell populations with a seemingly homogeneous cell state before differentiation showed heterogeneity at the early stage of differentiation. At later differentiation stages, the cells returned to a homogeneous cell state that was different from the undifferentiated state. Thus, Raman spectral imaging enables us to illustrate the disappearance and reappearance of an attractor in a differentiation landscape, where cells stochastically fluctuate between states at the early stage of differentiation.",
+                  "label":"Visualizing the appearance and disappearance of the attractor of differentiation using Raman spectral imaging.",
+                  "badge":0,
+                  "sections":{
+                    "@type":"java.util.ArrayList",
+                    "@items":[
+                      {
+                        "@type":"gov.pnnl.activedata.data.Section",
+                        "label":"",
+                        "nameValues":null
+                      },
+                      {
+                        "@type":"gov.pnnl.activedata.data.Section",
+                        "label":"Citation",
+                        "nameValues":{
+                          "@type":"java.util.ArrayList",
+                          "@items":[
+                            {
+                              "@type":"gov.pnnl.activedata.data.NameValue",
+                              "name":"Year",
+                              "value":"2015"
+                            },
+                            {
+                              "@type":"gov.pnnl.activedata.data.NameValue",
+                              "name":"Journal",
+                              "value":"Scientific reports"
+                            },
+                            {
+                              "@type":"gov.pnnl.activedata.data.NameValue",
+                              "name":"Title",
+                              "value":"Visualizing the appearance and disappearance of the attractor of differentiation using Raman spectral imaging."
+                            },
+                            {
+                              "@type":"gov.pnnl.activedata.data.NameValue",
+                              "name":"Author",
+                              "value":"Ichimura, T  and Chiu, LD  and Fujita, K  and Machiyama, H  and Kawata, S  and Watanabe, TM  and Fujita, H "
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "@type":"gov.pnnl.activedata.data.Section",
+                        "label":"",
+                        "nameValues":{
+                          "@type":"java.util.ArrayList",
+                          "@items":[
+                            {
+                              "@type":"gov.pnnl.activedata.data.NameValue",
+                              "name":"LITERATURE:26079396",
+                              "value":"(2015) Visualizing the appearance and disappearance of the attractor of differentiation using Raman spectral imaging."
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  "listValues":null,
+                  "explainers":{
+                    "@type":"java.util.ArrayList",
+                    "@items":[
+                      "<div class='back-list-Container'>Abstract:",
+                      "<p class='back-list'>Using Raman spectral imaging, we visualized the cell state transition during differentiation and constructed hypothetical potential landscapes for attractors of cellular states on a state space composed of parameters related to the shape of the Raman spectra. As models of differentiation, we used the myogenic C2C12 cell line and mouse embryonic stem cells. Raman spectral imaging can validate the amounts and locations of multiple cellular components that describe the cell state such as proteins, nucleic acids, and lipids; thus, it can report the state of a single cell. Herein, we visualized the cell state transition during differentiation using Raman spectral imaging of cell nuclei in combination with principal component analysis. During differentiation, cell populations with a seemingly homogeneous cell state before differentiation showed heterogeneity at the early stage of differentiation. At later differentiation stages, the cells returned to a homogeneous cell state that was different from the undifferentiated state. Thus, Raman spectral imaging enables us to illustrate the disappearance and reappearance of an attractor in a differentiation landscape, where cells stochastically fluctuate between states at the early stage of differentiation.",
+                      "</p></div>"
+                    ]
+                  },
+                  "views":null,
+                  "attributes":{
+                    "@type":"java.util.HashMap"
+                  },
+                  "buttons":{
+                    "@type":"java.util.HashMap",
+                    "gopub":"window.open(\"http://www.ncbi.nlm.nih.gov/pubmed/26079396\")"
+                  }
+                }
+              ]
+            },
+            "nodesToUpdate":{
+              "@type":"java.util.ArrayList"
+            },
+            "edgeList":{
+              "@type":"java.util.ArrayList"
+            },
+            "recommendations":null,
+            "groupList":{
+              "@type":"java.util.ArrayList"
+            },
+            "recordSetList":{
+              "@type":"java.util.ArrayList"
+            },
+            "canvas":null,
+            "triggerNode":null
+          }
+        ]
+      },
+      {
+        "@type":"java.util.ArrayList",
+        "@items":[
+          {
+            "@type":"gov.pnnl.activedata.data.Bundle",
+            "nodeId":102,
+            "nodeList":{
+              "@type":"java.util.ArrayList",
+              "@items":[
+                {
+                  "@type":"gov.pnnl.activedata.data.DataNode",
+                  "id":1000011,
+                  "groupId":-1,
+                  "isUserData":false,
+                  "x":0.0,
+                  "y":0.0,
+                  "type":{"@ref":6},
                   "score":1.0,
                   "data":"Protein @ NCBI\r\nhypothetical protein cce_4662 [Cyanothece sp. ATCC 51142]",
                   "label":"Protein @ NCBI",
@@ -316,13 +592,13 @@
               "@items":[
                 {
                   "@type":"gov.pnnl.activedata.data.DataNode",
-                  "id":1000010,
+                  "id":1000012,
                   "groupId":-1,
                   "isUserData":false,
                   "x":0.0,
                   "y":0.0,
                   "type":{
-                    "@id":1,
+                    "@id":5,
                     "name":"LIST",
                     "ordinal":14
                   },
@@ -590,7 +866,7 @@
                     "@items":[
                       {
                         "@type":"gov.pnnl.activedata.data.View",
-                        "type":{"@ref":1},
+                        "type":{"@ref":5},
                         "url":""
                       },
                       {
@@ -643,6 +919,175 @@
             "nodeId":102,
             "nodeList":{
               "@type":"java.util.ArrayList"
+            },
+            "nodesToUpdate":{
+              "@type":"java.util.ArrayList"
+            },
+            "edgeList":{
+              "@type":"java.util.ArrayList"
+            },
+            "recommendations":null,
+            "groupList":{
+              "@type":"java.util.ArrayList"
+            },
+            "recordSetList":{
+              "@type":"java.util.ArrayList"
+            },
+            "canvas":null,
+            "triggerNode":null
+          },
+          {
+            "@type":"gov.pnnl.activedata.data.Bundle",
+            "nodeId":102,
+            "nodeList":{
+              "@type":"java.util.ArrayList",
+              "@items":[
+                {
+                  "@type":"gov.pnnl.activedata.data.DataNode",
+                  "id":1000013,
+                  "groupId":-1,
+                  "isUserData":false,
+                  "x":0.0,
+                  "y":0.0,
+                  "type":{"@ref":4},
+                  "score":0.0,
+                  "data":"An open reading frame of the Thermus thermophilus HJ6 hypothetical laccase, which composed of 729 bases, was cloned and expressed as a fusion protein with six histidine residues in Escherichia coli SoluBL21™ cells. The resulting insoluble bodies were separated from cellular debris by centrifugation and solubilized with 6M guanidine HCl. The solubilized protein was refolded by a simple on-column refolding procedure using Ni-chelation affinity chromatography and then the refolded protein was purified by gel filtration chromatography. It showed a single band with a molecular mass of 27kDa in SDS-PAGE. The results from UV-visible absorption and electron paramagnetic resonance (EPR) analysis suggested that the enzyme had the typical copper sites, type-1, 2, and 3 Cu(II) of laccase. The purified enzyme exhibited the laccase activity with the optimal catalytic temperature at 75°C. The optimum pH for the oxidation of 2,2'-azino-bis(3-ethylbenzothiazoline-6-sulfonic acid) (ABTS) and syringaldazine was 4.5 and 6.0, respectively. The recombinant protein showed high thermostability, and the half-life of heat inactivation was about 50min at 85°C. The enzyme oxidized various known laccase substrates, its lowest Km value being for syringaldazine, highest kcat value for guaiacol, and highest kcat/Km for 2,6-dimethoxy-phenol. The enzyme reaction was strongly inhibited by the metal chelators and the thiol compounds.",
+                  "label":"Expression, refolding, and characterization of a small laccase from Thermus thermophilus HJ6.",
+                  "badge":0,
+                  "sections":{
+                    "@type":"java.util.ArrayList",
+                    "@items":[
+                      {
+                        "@type":"gov.pnnl.activedata.data.Section",
+                        "label":"",
+                        "nameValues":null
+                      },
+                      {
+                        "@type":"gov.pnnl.activedata.data.Section",
+                        "label":"Citation",
+                        "nameValues":{
+                          "@type":"java.util.ArrayList",
+                          "@items":[
+                            {
+                              "@type":"gov.pnnl.activedata.data.NameValue",
+                              "name":"Year",
+                              "value":"2015"
+                            },
+                            {
+                              "@type":"gov.pnnl.activedata.data.NameValue",
+                              "name":"Journal",
+                              "value":"Protein expression and purification"
+                            },
+                            {
+                              "@type":"gov.pnnl.activedata.data.NameValue",
+                              "name":"Title",
+                              "value":"Expression, refolding, and characterization of a small laccase from Thermus thermophilus HJ6."
+                            },
+                            {
+                              "@type":"gov.pnnl.activedata.data.NameValue",
+                              "name":"Author",
+                              "value":"Kim, HW  and Lee, SY  and Park, H  and Jeon, SJ "
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "@type":"gov.pnnl.activedata.data.Section",
+                        "label":"",
+                        "nameValues":{
+                          "@type":"java.util.ArrayList",
+                          "@items":[
+                            {
+                              "@type":"gov.pnnl.activedata.data.NameValue",
+                              "name":"LITERATURE:26073095",
+                              "value":"(2015) Expression, refolding, and characterization of a small laccase from Thermus thermophilus HJ6."
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  "listValues":null,
+                  "explainers":{
+                    "@type":"java.util.ArrayList",
+                    "@items":[
+                      "<div class='back-list-Container'>Abstract:",
+                      "<p class='back-list'>An open reading frame of the Thermus thermophilus HJ6 hypothetical laccase, which composed of 729 bases, was cloned and expressed as a fusion protein with six histidine residues in Escherichia coli SoluBL21™ cells. The resulting insoluble bodies were separated from cellular debris by centrifugation and solubilized with 6M guanidine HCl. The solubilized protein was refolded by a simple on-column refolding procedure using Ni-chelation affinity chromatography and then the refolded protein was purified by gel filtration chromatography. It showed a single band with a molecular mass of 27kDa in SDS-PAGE. The results from UV-visible absorption and electron paramagnetic resonance (EPR) analysis suggested that the enzyme had the typical copper sites, type-1, 2, and 3 Cu(II) of laccase. The purified enzyme exhibited the laccase activity with the optimal catalytic temperature at 75°C. The optimum pH for the oxidation of 2,2'-azino-bis(3-ethylbenzothiazoline-6-sulfonic acid) (ABTS) and syringaldazine was 4.5 and 6.0, respectively. The recombinant protein showed high thermostability, and the half-life of heat inactivation was about 50min at 85°C. The enzyme oxidized various known laccase substrates, its lowest Km value being for syringaldazine, highest kcat value for guaiacol, and highest kcat/Km for 2,6-dimethoxy-phenol. The enzyme reaction was strongly inhibited by the metal chelators and the thiol compounds.",
+                      "</p></div>"
+                    ]
+                  },
+                  "views":null,
+                  "attributes":{
+                    "@type":"java.util.HashMap"
+                  },
+                  "buttons":{
+                    "@type":"java.util.HashMap",
+                    "gopub":"window.open(\"http://www.ncbi.nlm.nih.gov/pubmed/26073095\")"
+                  }
+                }
+              ]
+            },
+            "nodesToUpdate":{
+              "@type":"java.util.ArrayList"
+            },
+            "edgeList":{
+              "@type":"java.util.ArrayList"
+            },
+            "recommendations":null,
+            "groupList":{
+              "@type":"java.util.ArrayList"
+            },
+            "recordSetList":{
+              "@type":"java.util.ArrayList"
+            },
+            "canvas":null,
+            "triggerNode":null
+          },
+          {
+            "@type":"gov.pnnl.activedata.data.Bundle",
+            "nodeId":102,
+            "nodeList":{
+              "@type":"java.util.ArrayList",
+              "@items":[
+                {
+                  "@type":"gov.pnnl.activedata.data.DataNode",
+                  "id":1000016,
+                  "groupId":-1,
+                  "isUserData":false,
+                  "x":0.0,
+                  "y":0.0,
+                  "type":{"@ref":4},
+                  "score":0.0,
+                  "data":"Molecular processes leading to salt stress acclimation in the model cyanobacterium Prochlorococcus are not known. To address this, we used RNA sequencing (RNAseq) to compare the global transcriptome of two exponential-phase populations of Prochlorococcus AS9601 cells - acclimated to high salt (5%, w/v) and normal seawater salt (3.8%, w/v). Experiments showed that salt acclimated cells exhibit slower growth rates with a doubling time almost twice as controls. Approximately 1/3 of the genome was found to be differentially expressed (p-value <0.05), but a considerably large number of these genes are \"hypothetical proteins\" with unknown function. Transcript abundance were higher for genes involved in respiratory electron flow, carbon fixation, osmolyte/compatible solute biosynthesis and inorganic ion transport. Many of the highly expressed genes are 'high light inducible proteins' believed to be part of the general Prochlorococcus stress response. Transcript abundance were lower for genes involved in photosynthetic electron transport and cell division. The relative reduction in transcript abundance for genes encoding proteins containing heme groups and iron transporters suggests cellular iron requirements in salt acclimated cells maybe lower. The results presented here provide the first glimpse into global gene expression changes in Prochlorococcus cells due to salt stress.",
+                  "label":"Global transcriptome analysis of salt acclimated Prochlorococcus AS9601.",
+                  "badge":0,
+                  "sections":{
+                    "@type":"java.util.ArrayList",
+                    "@items":[
+                      {"@ref":3},
+                      {"@ref":2},
+                      {"@ref":1}
+                    ]
+                  },
+                  "listValues":null,
+                  "explainers":{
+                    "@type":"java.util.ArrayList",
+                    "@items":[
+                      "<div class='back-list-Container'>Abstract:",
+                      "<p class='back-list'>Molecular processes leading to salt stress acclimation in the model cyanobacterium Prochlorococcus are not known. To address this, we used RNA sequencing (RNAseq) to compare the global transcriptome of two exponential-phase populations of Prochlorococcus AS9601 cells - acclimated to high salt (5%, w/v) and normal seawater salt (3.8%, w/v). Experiments showed that salt acclimated cells exhibit slower growth rates with a doubling time almost twice as controls. Approximately 1/3 of the genome was found to be differentially expressed (p-value <0.05), but a considerably large number of these genes are \"hypothetical proteins\" with unknown function. Transcript abundance were higher for genes involved in respiratory electron flow, carbon fixation, osmolyte/compatible solute biosynthesis and inorganic ion transport. Many of the highly expressed genes are 'high light inducible proteins' believed to be part of the general Prochlorococcus stress response. Transcript abundance were lower for genes involved in photosynthetic electron transport and cell division. The relative reduction in transcript abundance for genes encoding proteins containing heme groups and iron transporters suggests cellular iron requirements in salt acclimated cells maybe lower. The results presented here provide the first glimpse into global gene expression changes in Prochlorococcus cells due to salt stress.",
+                      "</p></div>"
+                    ]
+                  },
+                  "views":null,
+                  "attributes":{
+                    "@type":"java.util.HashMap"
+                  },
+                  "buttons":{
+                    "@type":"java.util.HashMap",
+                    "gopub":"window.open(\"http://www.ncbi.nlm.nih.gov/pubmed/26070689\")"
+                  }
+                }
+              ]
             },
             "nodesToUpdate":{
               "@type":"java.util.ArrayList"
