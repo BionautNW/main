@@ -354,10 +354,126 @@
   "nodeBundle":{
     "@type":"java.util.HashMap",
     "@keys":[
+      null,
       {"@ref":4},
       {"@ref":5}
     ],
     "@items":[
+      {
+        "@type":"java.util.ArrayList",
+        "@items":[
+          {
+            "@type":"gov.pnnl.activedata.data.Bundle",
+            "nodeId":101,
+            "nodeList":{
+              "@type":"java.util.ArrayList",
+              "@items":[
+                {
+                  "@type":"gov.pnnl.activedata.data.DataNode",
+                  "id":1000030,
+                  "groupId":-1,
+                  "isUserData":false,
+                  "x":0.0,
+                  "y":0.0,
+                  "type":{
+                    "name":"ENTITY",
+                    "ordinal":11
+                  },
+                  "score":0.0,
+                  "data":"Epilepsy is a major neurological disorder characterized by spontaneous seizures accompanied by neurophysiological changes. Repeated seizures can damage the brain as neuronal death occurs. A better understanding of the mechanisms of brain cell death could facilitate the discovery of novel treatments for neurological disorders such as epilepsy. In this study, a model of kainic acid- (KA-) induced neuronal death was established to investigate the early protein markers associated with apoptotic cell death due to excitotoxic damage in the rat cortex. The results indicated that KA induces both apoptotic and necrotic cell death in the cortex. Incubation with high concentrations (5 and 500 μM, >75%) and low concentrations (0.5 pM: 95% and 50 nM: 8%) of KA for 180 min led to necrotic and apoptotic cell death, respectively. Moreover, proteomic analysis using two-dimensional gel electrophoresis and mass spectrometry demonstrated that antiapoptotic proteins, including heat shock protein 70, 3-mercaptopyruvate sulfurtransferase, tubulin-B-5, and pyruvate dehydrogenase E1 component subunit beta, were significantly higher in apoptosis than in necrosis induced by KA. Our findings provide direct evidence that several proteins are associated with apoptotic and necrotic cell death in excitotoxicity model. The results indicate that these proteins can be apoptotic biomarkers from the early stages of cell death.",
+                  "label":"Key proteins of activating cell death can be predicted through a kainic acid-induced excitotoxic stress.",
+                  "badge":0,
+                  "sections":{
+                    "@type":"java.util.ArrayList",
+                    "@items":[
+                      {
+                        "@type":"gov.pnnl.activedata.data.Section",
+                        "label":"",
+                        "nameValues":null
+                      },
+                      {
+                        "@type":"gov.pnnl.activedata.data.Section",
+                        "label":"Citation",
+                        "nameValues":{
+                          "@type":"java.util.ArrayList",
+                          "@items":[
+                            {
+                              "@type":"gov.pnnl.activedata.data.NameValue",
+                              "name":"Year",
+                              "value":"2015"
+                            },
+                            {
+                              "@type":"gov.pnnl.activedata.data.NameValue",
+                              "name":"Journal",
+                              "value":"BioMed research international"
+                            },
+                            {
+                              "@type":"gov.pnnl.activedata.data.NameValue",
+                              "name":"Title",
+                              "value":"Key proteins of activating cell death can be predicted through a kainic acid-induced excitotoxic stress."
+                            },
+                            {
+                              "@type":"gov.pnnl.activedata.data.NameValue",
+                              "name":"Author",
+                              "value":"Tsai, HL  and Chang, SJ "
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "@type":"gov.pnnl.activedata.data.Section",
+                        "label":"",
+                        "nameValues":{
+                          "@type":"java.util.ArrayList",
+                          "@items":[
+                            {
+                              "@type":"gov.pnnl.activedata.data.NameValue",
+                              "name":"LITERATURE:25695085",
+                              "value":"(2015) Key proteins of activating cell death can be predicted through a kainic acid-induced excitotoxic stress."
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  "listValues":null,
+                  "explainers":{
+                    "@type":"java.util.ArrayList",
+                    "@items":[
+                      "<div class='back-list-Container'>Abstract:",
+                      "<p class='back-list'>Epilepsy is a major neurological disorder characterized by spontaneous seizures accompanied by neurophysiological changes. Repeated seizures can damage the brain as neuronal death occurs. A better understanding of the mechanisms of brain cell death could facilitate the discovery of novel treatments for neurological disorders such as epilepsy. In this study, a model of kainic acid- (KA-) induced neuronal death was established to investigate the early protein markers associated with apoptotic cell death due to excitotoxic damage in the rat cortex. The results indicated that KA induces both apoptotic and necrotic cell death in the cortex. Incubation with high concentrations (5 and 500 μM, >75%) and low concentrations (0.5 pM: 95% and 50 nM: 8%) of KA for 180 min led to necrotic and apoptotic cell death, respectively. Moreover, proteomic analysis using two-dimensional gel electrophoresis and mass spectrometry demonstrated that antiapoptotic proteins, including heat shock protein 70, 3-mercaptopyruvate sulfurtransferase, tubulin-B-5, and pyruvate dehydrogenase E1 component subunit beta, were significantly higher in apoptosis than in necrosis induced by KA. Our findings provide direct evidence that several proteins are associated with apoptotic and necrotic cell death in excitotoxicity model. The results indicate that these proteins can be apoptotic biomarkers from the early stages of cell death.",
+                      "</p></div>"
+                    ]
+                  },
+                  "views":null,
+                  "attributes":{
+                    "@type":"java.util.HashMap"
+                  },
+                  "buttons":{
+                    "@type":"java.util.HashMap",
+                    "gopub":"window.open(\"http://www.ncbi.nlm.nih.gov/pubmed/25695085\")"
+                  }
+                }
+              ]
+            },
+            "nodesToUpdate":{
+              "@type":"java.util.ArrayList"
+            },
+            "edgeList":{
+              "@type":"java.util.ArrayList"
+            },
+            "recommendations":null,
+            "groupList":{
+              "@type":"java.util.ArrayList"
+            },
+            "recordSetList":{
+              "@type":"java.util.ArrayList"
+            },
+            "canvas":null,
+            "triggerNode":null
+          }
+        ]
+      },
       {
         "@type":"java.util.ArrayList",
         "@items":[
@@ -369,7 +485,7 @@
               "@items":[
                 {
                   "@type":"gov.pnnl.activedata.data.DataNode",
-                  "id":1000024,
+                  "id":1000028,
                   "groupId":-1,
                   "isUserData":false,
                   "x":0.0,
@@ -474,7 +590,7 @@
               "@items":[
                 {
                   "@type":"gov.pnnl.activedata.data.DataNode",
-                  "id":1000025,
+                  "id":1000029,
                   "groupId":-1,
                   "isUserData":false,
                   "x":0.0,
@@ -555,7 +671,7 @@
               "@items":[
                 {
                   "@type":"gov.pnnl.activedata.data.DataNode",
-                  "id":1000022,
+                  "id":1000026,
                   "groupId":-1,
                   "isUserData":false,
                   "x":0.0,
@@ -660,7 +776,7 @@
               "@items":[
                 {
                   "@type":"gov.pnnl.activedata.data.DataNode",
-                  "id":1000023,
+                  "id":1000027,
                   "groupId":-1,
                   "isUserData":false,
                   "x":0.0,
