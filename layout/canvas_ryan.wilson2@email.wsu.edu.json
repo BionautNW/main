@@ -18,15 +18,15 @@
     "@type":"java.util.ArrayList",
     "@items":[
       {
-        "@id":3,
+        "@id":10,
         "@type":"gov.pnnl.activedata.data.DataNode",
         "id":102,
         "groupId":-1,
         "isUserData":true,
-        "x":1049.9691995482533,
-        "y":519.5999999999999,
+        "x":374.98899983866187,
+        "y":389.69999999999993,
         "type":{
-          "@id":2,
+          "@id":8,
           "name":"PROTEIN",
           "ordinal":17
         },
@@ -34,12 +34,114 @@
         "data":";YP_001806076.1;main;BionautNW;master",
         "label":"YP_001806076.1",
         "badge":0,
-        "sections":null,
+        "sections":{
+          "@type":"java.util.ArrayList",
+          "@items":[
+            {
+              "@id":7,
+              "@type":"gov.pnnl.activedata.data.Section",
+              "label":"",
+              "nameValues":{
+                "@type":"java.util.ArrayList",
+                "@items":[
+                  {
+                    "@type":"gov.pnnl.activedata.data.NameValue",
+                    "name":"",
+                    "value":"hypothetical protein cce_4662 [Cyanothece sp. ATCC 51142]"
+                  }
+                ]
+              }
+            },
+            {
+              "@id":6,
+              "@type":"gov.pnnl.activedata.data.Section",
+              "label":"",
+              "nameValues":{
+                "@type":"java.util.ArrayList",
+                "@items":[
+                  {
+                    "@type":"gov.pnnl.activedata.data.NameValue",
+                    "name":"",
+                    "value":""
+                  }
+                ]
+              }
+            },
+            {
+              "@id":5,
+              "@type":"gov.pnnl.activedata.data.Section",
+              "label":"",
+              "nameValues":{
+                "@type":"java.util.ArrayList",
+                "@items":[
+                  {
+                    "@type":"gov.pnnl.activedata.data.NameValue",
+                    "name":"PROTEIN:YP_001806076",
+                    "value":"hypothetical protein cce_4662 [Cyanothece sp. ATCC 51142]"
+                  }
+                ]
+              }
+            },
+            {
+              "@id":3,
+              "@type":"gov.pnnl.activedata.data.Section",
+              "label":"",
+              "nameValues":null
+            },
+            {
+              "@id":2,
+              "@type":"gov.pnnl.activedata.data.Section",
+              "label":"Citation",
+              "nameValues":{
+                "@type":"java.util.ArrayList",
+                "@items":[
+                  {
+                    "@type":"gov.pnnl.activedata.data.NameValue",
+                    "name":"Year",
+                    "value":"2015"
+                  },
+                  {
+                    "@type":"gov.pnnl.activedata.data.NameValue",
+                    "name":"Journal",
+                    "value":"Scientific reports"
+                  },
+                  {
+                    "@type":"gov.pnnl.activedata.data.NameValue",
+                    "name":"Title",
+                    "value":"Visualizing the appearance and disappearance of the attractor of differentiation using Raman spectral imaging."
+                  },
+                  {
+                    "@type":"gov.pnnl.activedata.data.NameValue",
+                    "name":"Author",
+                    "value":"Ichimura, T  and Chiu, LD  and Fujita, K  and Machiyama, H  and Kawata, S  and Watanabe, TM  and Fujita, H "
+                  }
+                ]
+              }
+            },
+            {
+              "@id":1,
+              "@type":"gov.pnnl.activedata.data.Section",
+              "label":"",
+              "nameValues":{
+                "@type":"java.util.ArrayList",
+                "@items":[
+                  {
+                    "@type":"gov.pnnl.activedata.data.NameValue",
+                    "name":"LITERATURE:26079396",
+                    "value":"(2015) Visualizing the appearance and disappearance of the attractor of differentiation using Raman spectral imaging."
+                  }
+                ]
+              }
+            }
+          ]
+        },
         "listValues":null,
         "explainers":null,
         "views":null,
         "attributes":{
-          "@type":"java.util.LinkedHashMap"
+          "@type":"java.util.LinkedHashMap",
+          "PROTEIN:YP_001806076":"hypothetical protein cce_4662 [Cyanothece sp. ATCC 51142]",
+          "LITERATURE:26079396":"(2015) Visualizing the appearance and disappearance of the attractor of differentiation using Raman spectral imaging."
         },
         "buttons":{
           "@type":"java.util.HashMap"
@@ -52,7 +154,8 @@
   "nodeBundle":{
     "@type":"java.util.HashMap",
     "@keys":[
-      {"@ref":3}
+      null,
+      {"@ref":10}
     ],
     "@items":[
       {
@@ -66,15 +169,19 @@
               "@items":[
                 {
                   "@type":"gov.pnnl.activedata.data.DataNode",
-                  "id":1000026,
+                  "id":1000014,
                   "groupId":-1,
                   "isUserData":false,
                   "x":0.0,
                   "y":0.0,
-                  "type":{"@ref":2},
-                  "score":1.0,
-                  "data":"Protein @ NCBI\r\nhypothetical protein cce_4662 [Cyanothece sp. ATCC 51142]",
-                  "label":"Protein @ NCBI",
+                  "type":{
+                    "@id":9,
+                    "name":"ENTITY",
+                    "ordinal":11
+                  },
+                  "score":0.0,
+                  "data":"Using Raman spectral imaging, we visualized the cell state transition during differentiation and constructed hypothetical potential landscapes for attractors of cellular states on a state space composed of parameters related to the shape of the Raman spectra. As models of differentiation, we used the myogenic C2C12 cell line and mouse embryonic stem cells. Raman spectral imaging can validate the amounts and locations of multiple cellular components that describe the cell state such as proteins, nucleic acids, and lipids; thus, it can report the state of a single cell. Herein, we visualized the cell state transition during differentiation using Raman spectral imaging of cell nuclei in combination with principal component analysis. During differentiation, cell populations with a seemingly homogeneous cell state before differentiation showed heterogeneity at the early stage of differentiation. At later differentiation stages, the cells returned to a homogeneous cell state that was different from the undifferentiated state. Thus, Raman spectral imaging enables us to illustrate the disappearance and reappearance of an attractor in a differentiation landscape, where cells stochastically fluctuate between states at the early stage of differentiation.",
+                  "label":"Visualizing the appearance and disappearance of the attractor of differentiation using Raman spectral imaging.",
                   "badge":0,
                   "sections":{
                     "@type":"java.util.ArrayList",
@@ -82,13 +189,33 @@
                       {
                         "@type":"gov.pnnl.activedata.data.Section",
                         "label":"",
+                        "nameValues":null
+                      },
+                      {
+                        "@type":"gov.pnnl.activedata.data.Section",
+                        "label":"Citation",
                         "nameValues":{
                           "@type":"java.util.ArrayList",
                           "@items":[
                             {
                               "@type":"gov.pnnl.activedata.data.NameValue",
-                              "name":"",
-                              "value":"hypothetical protein cce_4662 [Cyanothece sp. ATCC 51142]"
+                              "name":"Year",
+                              "value":"2015"
+                            },
+                            {
+                              "@type":"gov.pnnl.activedata.data.NameValue",
+                              "name":"Journal",
+                              "value":"Scientific reports"
+                            },
+                            {
+                              "@type":"gov.pnnl.activedata.data.NameValue",
+                              "name":"Title",
+                              "value":"Visualizing the appearance and disappearance of the attractor of differentiation using Raman spectral imaging."
+                            },
+                            {
+                              "@type":"gov.pnnl.activedata.data.NameValue",
+                              "name":"Author",
+                              "value":"Ichimura, T  and Chiu, LD  and Fujita, K  and Machiyama, H  and Kawata, S  and Watanabe, TM  and Fujita, H "
                             }
                           ]
                         }
@@ -101,26 +228,79 @@
                           "@items":[
                             {
                               "@type":"gov.pnnl.activedata.data.NameValue",
-                              "name":"",
-                              "value":""
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "@type":"gov.pnnl.activedata.data.Section",
-                        "label":"",
-                        "nameValues":{
-                          "@type":"java.util.ArrayList",
-                          "@items":[
-                            {
-                              "@type":"gov.pnnl.activedata.data.NameValue",
-                              "name":"PROTEIN:YP_001806076",
-                              "value":"hypothetical protein cce_4662 [Cyanothece sp. ATCC 51142]"
+                              "name":"LITERATURE:26079396",
+                              "value":"(2015) Visualizing the appearance and disappearance of the attractor of differentiation using Raman spectral imaging."
                             }
                           ]
                         }
                       }
+                    ]
+                  },
+                  "listValues":null,
+                  "explainers":{
+                    "@type":"java.util.ArrayList",
+                    "@items":[
+                      "<div class='back-list-Container'>Abstract:",
+                      "<p class='back-list'>Using Raman spectral imaging, we visualized the cell state transition during differentiation and constructed hypothetical potential landscapes for attractors of cellular states on a state space composed of parameters related to the shape of the Raman spectra. As models of differentiation, we used the myogenic C2C12 cell line and mouse embryonic stem cells. Raman spectral imaging can validate the amounts and locations of multiple cellular components that describe the cell state such as proteins, nucleic acids, and lipids; thus, it can report the state of a single cell. Herein, we visualized the cell state transition during differentiation using Raman spectral imaging of cell nuclei in combination with principal component analysis. During differentiation, cell populations with a seemingly homogeneous cell state before differentiation showed heterogeneity at the early stage of differentiation. At later differentiation stages, the cells returned to a homogeneous cell state that was different from the undifferentiated state. Thus, Raman spectral imaging enables us to illustrate the disappearance and reappearance of an attractor in a differentiation landscape, where cells stochastically fluctuate between states at the early stage of differentiation.",
+                      "</p></div>"
+                    ]
+                  },
+                  "views":null,
+                  "attributes":{
+                    "@type":"java.util.HashMap"
+                  },
+                  "buttons":{
+                    "@type":"java.util.HashMap",
+                    "gopub":"window.open(\"http://www.ncbi.nlm.nih.gov/pubmed/26079396\")"
+                  }
+                }
+              ]
+            },
+            "nodesToUpdate":{
+              "@type":"java.util.ArrayList"
+            },
+            "edgeList":{
+              "@type":"java.util.ArrayList"
+            },
+            "recommendations":null,
+            "groupList":{
+              "@type":"java.util.ArrayList"
+            },
+            "recordSetList":{
+              "@type":"java.util.ArrayList"
+            },
+            "canvas":null,
+            "triggerNode":null
+          }
+        ]
+      },
+      {
+        "@type":"java.util.ArrayList",
+        "@items":[
+          {
+            "@type":"gov.pnnl.activedata.data.Bundle",
+            "nodeId":102,
+            "nodeList":{
+              "@type":"java.util.ArrayList",
+              "@items":[
+                {
+                  "@type":"gov.pnnl.activedata.data.DataNode",
+                  "id":1000011,
+                  "groupId":-1,
+                  "isUserData":false,
+                  "x":0.0,
+                  "y":0.0,
+                  "type":{"@ref":8},
+                  "score":1.0,
+                  "data":"Protein @ NCBI\r\nhypothetical protein cce_4662 [Cyanothece sp. ATCC 51142]",
+                  "label":"Protein @ NCBI",
+                  "badge":0,
+                  "sections":{
+                    "@type":"java.util.ArrayList",
+                    "@items":[
+                      {"@ref":7},
+                      {"@ref":6},
+                      {"@ref":5}
                     ]
                   },
                   "listValues":null,
@@ -171,13 +351,13 @@
               "@items":[
                 {
                   "@type":"gov.pnnl.activedata.data.DataNode",
-                  "id":1000027,
+                  "id":1000012,
                   "groupId":-1,
                   "isUserData":false,
                   "x":0.0,
                   "y":0.0,
                   "type":{
-                    "@id":1,
+                    "@id":4,
                     "name":"LIST",
                     "ordinal":14
                   },
@@ -291,6 +471,25 @@
                             }
                           ]
                         }
+                      },
+                      {
+                        "@type":"gov.pnnl.activedata.data.Section",
+                        "label":"",
+                        "nameValues":null
+                      },
+                      {
+                        "@type":"gov.pnnl.activedata.data.Section",
+                        "label":"",
+                        "nameValues":{
+                          "@type":"java.util.ArrayList",
+                          "@items":[
+                            {
+                              "@type":"gov.pnnl.activedata.data.NameValue",
+                              "name":"PUBMEDS:hypothetical protein cce_4662",
+                              "value":"Pubmed Titles List"
+                            }
+                          ]
+                        }
                       }
                     ]
                   },
@@ -330,7 +529,7 @@
                     "@items":[
                       {
                         "@type":"gov.pnnl.activedata.data.View",
-                        "type":{"@ref":1},
+                        "type":{"@ref":4},
                         "url":""
                       },
                       {
@@ -383,6 +582,68 @@
             "nodeId":102,
             "nodeList":{
               "@type":"java.util.ArrayList"
+            },
+            "nodesToUpdate":{
+              "@type":"java.util.ArrayList"
+            },
+            "edgeList":{
+              "@type":"java.util.ArrayList"
+            },
+            "recommendations":null,
+            "groupList":{
+              "@type":"java.util.ArrayList"
+            },
+            "recordSetList":{
+              "@type":"java.util.ArrayList"
+            },
+            "canvas":null,
+            "triggerNode":null
+          },
+          {
+            "@type":"gov.pnnl.activedata.data.Bundle",
+            "nodeId":102,
+            "nodeList":{
+              "@type":"java.util.ArrayList",
+              "@items":[
+                {
+                  "@type":"gov.pnnl.activedata.data.DataNode",
+                  "id":1000013,
+                  "groupId":-1,
+                  "isUserData":false,
+                  "x":0.0,
+                  "y":0.0,
+                  "type":{"@ref":9},
+                  "score":0.0,
+                  "data":"Using Raman spectral imaging, we visualized the cell state transition during differentiation and constructed hypothetical potential landscapes for attractors of cellular states on a state space composed of parameters related to the shape of the Raman spectra. As models of differentiation, we used the myogenic C2C12 cell line and mouse embryonic stem cells. Raman spectral imaging can validate the amounts and locations of multiple cellular components that describe the cell state such as proteins, nucleic acids, and lipids; thus, it can report the state of a single cell. Herein, we visualized the cell state transition during differentiation using Raman spectral imaging of cell nuclei in combination with principal component analysis. During differentiation, cell populations with a seemingly homogeneous cell state before differentiation showed heterogeneity at the early stage of differentiation. At later differentiation stages, the cells returned to a homogeneous cell state that was different from the undifferentiated state. Thus, Raman spectral imaging enables us to illustrate the disappearance and reappearance of an attractor in a differentiation landscape, where cells stochastically fluctuate between states at the early stage of differentiation.",
+                  "label":"Visualizing the appearance and disappearance of the attractor of differentiation using Raman spectral imaging.",
+                  "badge":0,
+                  "sections":{
+                    "@type":"java.util.ArrayList",
+                    "@items":[
+                      {"@ref":3},
+                      {"@ref":2},
+                      {"@ref":1}
+                    ]
+                  },
+                  "listValues":null,
+                  "explainers":{
+                    "@type":"java.util.ArrayList",
+                    "@items":[
+                      "<div class='back-list-Container'>Abstract:",
+                      "<p class='back-list'>Using Raman spectral imaging, we visualized the cell state transition during differentiation and constructed hypothetical potential landscapes for attractors of cellular states on a state space composed of parameters related to the shape of the Raman spectra. As models of differentiation, we used the myogenic C2C12 cell line and mouse embryonic stem cells. Raman spectral imaging can validate the amounts and locations of multiple cellular components that describe the cell state such as proteins, nucleic acids, and lipids; thus, it can report the state of a single cell. Herein, we visualized the cell state transition during differentiation using Raman spectral imaging of cell nuclei in combination with principal component analysis. During differentiation, cell populations with a seemingly homogeneous cell state before differentiation showed heterogeneity at the early stage of differentiation. At later differentiation stages, the cells returned to a homogeneous cell state that was different from the undifferentiated state. Thus, Raman spectral imaging enables us to illustrate the disappearance and reappearance of an attractor in a differentiation landscape, where cells stochastically fluctuate between states at the early stage of differentiation.",
+                      "</p></div>"
+                    ]
+                  },
+                  "views":null,
+                  "attributes":{
+                    "@type":"java.util.HashMap"
+                  },
+                  "buttons":{
+                    "@type":"java.util.HashMap",
+                    "gopub":"window.open(\"http://www.ncbi.nlm.nih.gov/pubmed/26079396\")"
+                  }
+                }
+              ]
             },
             "nodesToUpdate":{
               "@type":"java.util.ArrayList"
