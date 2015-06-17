@@ -18,7 +18,7 @@
     "@type":"java.util.ArrayList",
     "@items":[
       {
-        "@id":2,
+        "@id":3,
         "@type":"gov.pnnl.activedata.data.DataNode",
         "id":102,
         "groupId":-1,
@@ -26,6 +26,7 @@
         "x":960.0,
         "y":500.0,
         "type":{
+          "@id":2,
           "name":"PROTEIN",
           "ordinal":17
         },
@@ -51,7 +52,7 @@
   "nodeBundle":{
     "@type":"java.util.HashMap",
     "@keys":[
-      {"@ref":2}
+      {"@ref":3}
     ],
     "@items":[
       {
@@ -65,7 +66,112 @@
               "@items":[
                 {
                   "@type":"gov.pnnl.activedata.data.DataNode",
-                  "id":1000008,
+                  "id":1000010,
+                  "groupId":-1,
+                  "isUserData":false,
+                  "x":0.0,
+                  "y":0.0,
+                  "type":{"@ref":2},
+                  "score":1.0,
+                  "data":"Protein @ NCBI\r\nhypothetical protein cce_4662 [Cyanothece sp. ATCC 51142]",
+                  "label":"Protein @ NCBI",
+                  "badge":0,
+                  "sections":{
+                    "@type":"java.util.ArrayList",
+                    "@items":[
+                      {
+                        "@type":"gov.pnnl.activedata.data.Section",
+                        "label":"",
+                        "nameValues":{
+                          "@type":"java.util.ArrayList",
+                          "@items":[
+                            {
+                              "@type":"gov.pnnl.activedata.data.NameValue",
+                              "name":"",
+                              "value":"hypothetical protein cce_4662 [Cyanothece sp. ATCC 51142]"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "@type":"gov.pnnl.activedata.data.Section",
+                        "label":"",
+                        "nameValues":{
+                          "@type":"java.util.ArrayList",
+                          "@items":[
+                            {
+                              "@type":"gov.pnnl.activedata.data.NameValue",
+                              "name":"",
+                              "value":""
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "@type":"gov.pnnl.activedata.data.Section",
+                        "label":"",
+                        "nameValues":{
+                          "@type":"java.util.ArrayList",
+                          "@items":[
+                            {
+                              "@type":"gov.pnnl.activedata.data.NameValue",
+                              "name":"PROTEIN:YP_001806076",
+                              "value":"hypothetical protein cce_4662 [Cyanothece sp. ATCC 51142]"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  "listValues":null,
+                  "explainers":{
+                    "@type":"java.util.ArrayList",
+                    "@items":[
+                      "<ul class='back-list'>",
+                      "<li class='back-list-item'>Description: hypothetical protein cce_4662 [Cyanothece sp. ATCC 51142]</li>",
+                      "<li class='back-list-item'>Accession: YP_001806076</li>",
+                      "<li class='back-list-item'>Parent organism: Cyanothece sp. ATCC 51142</li>",
+                      "</ul>"
+                    ]
+                  },
+                  "views":null,
+                  "attributes":{
+                    "@type":"java.util.HashMap",
+                    "dismisser":"NCBI_Dismisser"
+                  },
+                  "buttons":{
+                    "@type":"java.util.HashMap",
+                    "fasta":"window.open(\"http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nucleotide&id=YP_001806076&rettype=fasta&retmode=txt\")",
+                    "ncbi":"window.open(\"http://www.ncbi.nlm.nih.gov/protein/YP_001806076?report=genpept\")"
+                  }
+                }
+              ]
+            },
+            "nodesToUpdate":{
+              "@type":"java.util.ArrayList"
+            },
+            "edgeList":{
+              "@type":"java.util.ArrayList"
+            },
+            "recommendations":null,
+            "groupList":{
+              "@type":"java.util.ArrayList"
+            },
+            "recordSetList":{
+              "@type":"java.util.ArrayList"
+            },
+            "canvas":null,
+            "triggerNode":null
+          },
+          {
+            "@type":"gov.pnnl.activedata.data.Bundle",
+            "nodeId":102,
+            "nodeList":{
+              "@type":"java.util.ArrayList",
+              "@items":[
+                {
+                  "@type":"gov.pnnl.activedata.data.DataNode",
+                  "id":1000011,
                   "groupId":-1,
                   "isUserData":false,
                   "x":0.0,
@@ -78,7 +184,7 @@
                   "score":1.0,
                   "data":"PubMed Titles",
                   "label":"PubMed Titles",
-                  "badge":7310,
+                  "badge":7311,
                   "sections":{
                     "@type":"java.util.ArrayList",
                     "@items":[
@@ -88,6 +194,11 @@
                         "nameValues":{
                           "@type":"java.util.ArrayList",
                           "@items":[
+                            {
+                              "@type":"gov.pnnl.activedata.data.NameValue",
+                              "name":"26079396",
+                              "value":"([2015]) Visualizing the appearance and disappearance of the attractor of differentiation using Raman spectral imaging."
+                            },
                             {
                               "@type":"gov.pnnl.activedata.data.NameValue",
                               "name":"26076386",
@@ -177,11 +288,6 @@
                               "@type":"gov.pnnl.activedata.data.NameValue",
                               "name":"25994458",
                               "value":"([2015]) Comparative modeling of hypothetical amyloid pores based on cylindrin."
-                            },
-                            {
-                              "@type":"gov.pnnl.activedata.data.NameValue",
-                              "name":"25985983",
-                              "value":"([2015]) Identification of functional candidates amongst hypothetical proteins of Mycobacterium leprae Br4923, a causative agent of leprosy."
                             }
                           ]
                         }
@@ -191,6 +297,7 @@
                   "listValues":{
                     "@type":"java.util.ArrayList",
                     "@items":[
+                      "(2015) Visualizing the appearance and disappearance of the attractor of differentiation using Raman spectral imaging.",
                       "(2015) Towards New Drug Targets? Function Prediction of Putative Proteins of Neisseria meningitidis MC58 and Their Virulence Characterization.",
                       "(2015) Expression, refolding, and characterization of a small laccase from Thermus thermophilus HJ6.",
                       "(2015) Global transcriptome analysis of salt acclimated Prochlorococcus AS9601.",
@@ -208,15 +315,14 @@
                       "(2015) Phenotypic and transcriptional profiling in Entamoeba histolytica reveal costs to fitness and adaptive responses associated with metronidazole resistance.",
                       "(2015) Phosphoproteomic Analysis of the Chlamydia caviae Elementary Body and Reticulate Body Forms.",
                       "(2015) The Chlamydia pneumoniae Inclusion Membrane Protein Cpn1027 Interacts with Host Cell Wnt Signaling Pathway Regulator Cytoplasmic Activation/Proliferation-Associated Protein 2 (Caprin2).",
-                      "(2015) Comparative modeling of hypothetical amyloid pores based on cylindrin.",
-                      "(2015) Identification of functional candidates amongst hypothetical proteins of Mycobacterium leprae Br4923, a causative agent of leprosy."
+                      "(2015) Comparative modeling of hypothetical amyloid pores based on cylindrin."
                     ]
                   },
                   "explainers":{
                     "@type":"java.util.ArrayList",
                     "@items":[
                       "Search Query: hypothetical protein cce_4662",
-                      "Top 19 out of 7310   Relevance Score: 1.0"
+                      "Top 19 out of 7311   Relevance Score: 1.0"
                     ]
                   },
                   "views":{
@@ -233,7 +339,7 @@
                           "name":"WORDCLOUD",
                           "ordinal":9
                         },
-                        "url":"view/wordcloud?repo=main&owner=BionautNW&branch=master&keywords=Towards,New,Drug,Targets?,Function,Prediction,of,Putative,Proteins,of,Neisseria,meningitidis,MC58,and,Their,Virulence,Characterization.,Expression,refolding,and,characterization,of,a,small,laccase,from,Thermus,thermophilus,HJ6.,Global,transcriptome,analysis,of,salt,acclimated,Prochlorococcus,AS9601.,Sulfur-Mediated,Electron,Shuttling,Sustains,Microbial,Long-Distance,Extracellular,Electron,Transfer,with,the,Aid,of,Metallic,Iron,Sulfides.,Characterization,of,a,novel,megabirnavirus,from,Sclerotinia,sclerotiorum,reveals,horizontal,gene,transfer,from,ssRNA,virus,to,dsRNA,virus.,Bilirubin,scavenges,chloramines,and,inhibits,myeloperoxidase,induced,protein/lipid,oxidation,in,physiologically,relevant,hyperbilirubinaemic,serum.,Potential,impact,on,kidney,infection:,a,whole-genome,analysis,of,Leptospira,santarosai,serovar,Shermani.,The,complete,mitochondrial,genome,of,the,nematode,endoparasitic,fungus,Hirsutella,minnesotensis.,In,silico,functional,annotation,of,a,hypothetical,protein,from,Staphylococcus,aureus.,The,human,pathogen,Streptococcus,pyogenes,releases,lipoproteins,as,Lipoprotein-rich,Membrane,Vesicles.,Updating,algal,evolutionary,relationships,through,plastid,genome,sequencing:,did,alveolate,plastids,emerge,through,endosymbiosis,of,an,ochrophyte?,Characterization,and,PCR,Detection,Of,Binary,Pir-Like,Toxins,from,Vibrio,parahaemolyticus,Isolates,that,Cause,Acute,Hepatopancreatic,Necrosis,Disease,(AHPND),in,Shrimp.,Molecular,Characterization,of,a,Novel,Positive-Sense,Single-Stranded,RNA,Mycovirus,Infecting,the,Plant,Pathogenic,Fungus,Sclerotinia,sclerotiorum.,A,graph,modification,approach,for,finding,core-periphery,structures,in,protein,interaction,networks.,Phenotypic,and,transcriptional,profiling,in,Entamoeba,histolytica,reveal,costs,to,fitness,and,adaptive,responses,associated,with,metronidazole,resistance.,Phosphoproteomic,Analysis,of,the,Chlamydia,caviae,Elementary,Body,and,Reticulate,Body,Forms.,The,Chlamydia,pneumoniae,Inclusion,Membrane,Protein,Cpn1027,Interacts,with,Host,Cell,Wnt,Signaling,Pathway,Regulator,Cytoplasmic,Activation/Proliferation-Associated,Protein,2,(Caprin2).,Comparative,modeling,of,hypothetical,amyloid,pores,based,on,cylindrin.,Identification,of,functional,candidates,amongst,hypothetical,proteins,of,Mycobacterium,leprae,Br4923,a,causative,agent,of,leprosy."
+                        "url":"view/wordcloud?repo=main&owner=BionautNW&branch=master&keywords=Visualizing,the,appearance,and,disappearance,of,the,attractor,of,differentiation,using,Raman,spectral,imaging.,Towards,New,Drug,Targets?,Function,Prediction,of,Putative,Proteins,of,Neisseria,meningitidis,MC58,and,Their,Virulence,Characterization.,Expression,refolding,and,characterization,of,a,small,laccase,from,Thermus,thermophilus,HJ6.,Global,transcriptome,analysis,of,salt,acclimated,Prochlorococcus,AS9601.,Sulfur-Mediated,Electron,Shuttling,Sustains,Microbial,Long-Distance,Extracellular,Electron,Transfer,with,the,Aid,of,Metallic,Iron,Sulfides.,Characterization,of,a,novel,megabirnavirus,from,Sclerotinia,sclerotiorum,reveals,horizontal,gene,transfer,from,ssRNA,virus,to,dsRNA,virus.,Bilirubin,scavenges,chloramines,and,inhibits,myeloperoxidase,induced,protein/lipid,oxidation,in,physiologically,relevant,hyperbilirubinaemic,serum.,Potential,impact,on,kidney,infection:,a,whole-genome,analysis,of,Leptospira,santarosai,serovar,Shermani.,The,complete,mitochondrial,genome,of,the,nematode,endoparasitic,fungus,Hirsutella,minnesotensis.,In,silico,functional,annotation,of,a,hypothetical,protein,from,Staphylococcus,aureus.,The,human,pathogen,Streptococcus,pyogenes,releases,lipoproteins,as,Lipoprotein-rich,Membrane,Vesicles.,Updating,algal,evolutionary,relationships,through,plastid,genome,sequencing:,did,alveolate,plastids,emerge,through,endosymbiosis,of,an,ochrophyte?,Characterization,and,PCR,Detection,Of,Binary,Pir-Like,Toxins,from,Vibrio,parahaemolyticus,Isolates,that,Cause,Acute,Hepatopancreatic,Necrosis,Disease,(AHPND),in,Shrimp.,Molecular,Characterization,of,a,Novel,Positive-Sense,Single-Stranded,RNA,Mycovirus,Infecting,the,Plant,Pathogenic,Fungus,Sclerotinia,sclerotiorum.,A,graph,modification,approach,for,finding,core-periphery,structures,in,protein,interaction,networks.,Phenotypic,and,transcriptional,profiling,in,Entamoeba,histolytica,reveal,costs,to,fitness,and,adaptive,responses,associated,with,metronidazole,resistance.,Phosphoproteomic,Analysis,of,the,Chlamydia,caviae,Elementary,Body,and,Reticulate,Body,Forms.,The,Chlamydia,pneumoniae,Inclusion,Membrane,Protein,Cpn1027,Interacts,with,Host,Cell,Wnt,Signaling,Pathway,Regulator,Cytoplasmic,Activation/Proliferation-Associated,Protein,2,(Caprin2).,Comparative,modeling,of,hypothetical,amyloid,pores,based,on,cylindrin."
                       },
                       {
                         "@type":"gov.pnnl.activedata.data.View",
