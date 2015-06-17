@@ -23,8 +23,8 @@
         "id":102,
         "groupId":-1,
         "isUserData":true,
-        "x":960.0,
-        "y":500.0,
+        "x":1049.9691995482533,
+        "y":519.5999999999999,
         "type":{
           "@id":2,
           "name":"PROTEIN",
@@ -39,7 +39,7 @@
         "explainers":null,
         "views":null,
         "attributes":{
-          "@type":"java.util.HashMap"
+          "@type":"java.util.LinkedHashMap"
         },
         "buttons":{
           "@type":"java.util.HashMap"
@@ -66,7 +66,7 @@
               "@items":[
                 {
                   "@type":"gov.pnnl.activedata.data.DataNode",
-                  "id":1000024,
+                  "id":1000026,
                   "groupId":-1,
                   "isUserData":false,
                   "x":0.0,
@@ -171,7 +171,7 @@
               "@items":[
                 {
                   "@type":"gov.pnnl.activedata.data.DataNode",
-                  "id":1000025,
+                  "id":1000027,
                   "groupId":-1,
                   "isUserData":false,
                   "x":0.0,
