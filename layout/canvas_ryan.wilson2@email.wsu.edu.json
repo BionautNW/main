@@ -18,6 +18,7 @@
     "@type":"java.util.ArrayList",
     "@items":[
       {
+        "@id":3,
         "@type":"gov.pnnl.activedata.data.DataNode",
         "id":102,
         "groupId":-1,
@@ -25,6 +26,7 @@
         "x":449.9867998063943,
         "y":519.5999999999999,
         "type":{
+          "@id":2,
           "name":"PROTEIN",
           "ordinal":17
         },
@@ -193,7 +195,474 @@
   "userEdges":null,
   "groups":null,
   "nodeBundle":{
-    "@type":"java.util.HashMap"
+    "@type":"java.util.HashMap",
+    "@keys":[
+      {"@ref":3}
+    ],
+    "@items":[
+      {
+        "@type":"java.util.ArrayList",
+        "@items":[
+          {
+            "@type":"gov.pnnl.activedata.data.Bundle",
+            "nodeId":102,
+            "nodeList":{
+              "@type":"java.util.ArrayList",
+              "@items":[
+                {
+                  "@type":"gov.pnnl.activedata.data.DataNode",
+                  "id":1000009,
+                  "groupId":-1,
+                  "isUserData":false,
+                  "x":0.0,
+                  "y":0.0,
+                  "type":{"@ref":2},
+                  "score":1.0,
+                  "data":"Protein @ NCBI\r\nhypothetical protein cce_4662 [Cyanothece sp. ATCC 51142]",
+                  "label":"Protein @ NCBI",
+                  "badge":0,
+                  "sections":{
+                    "@type":"java.util.ArrayList",
+                    "@items":[
+                      {
+                        "@type":"gov.pnnl.activedata.data.Section",
+                        "label":"",
+                        "nameValues":{
+                          "@type":"java.util.ArrayList",
+                          "@items":[
+                            {
+                              "@type":"gov.pnnl.activedata.data.NameValue",
+                              "name":"",
+                              "value":"hypothetical protein cce_4662 [Cyanothece sp. ATCC 51142]"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "@type":"gov.pnnl.activedata.data.Section",
+                        "label":"",
+                        "nameValues":{
+                          "@type":"java.util.ArrayList",
+                          "@items":[
+                            {
+                              "@type":"gov.pnnl.activedata.data.NameValue",
+                              "name":"",
+                              "value":""
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "@type":"gov.pnnl.activedata.data.Section",
+                        "label":"",
+                        "nameValues":{
+                          "@type":"java.util.ArrayList",
+                          "@items":[
+                            {
+                              "@type":"gov.pnnl.activedata.data.NameValue",
+                              "name":"PROTEIN:YP_001806076",
+                              "value":"hypothetical protein cce_4662 [Cyanothece sp. ATCC 51142]"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  "listValues":null,
+                  "explainers":{
+                    "@type":"java.util.ArrayList",
+                    "@items":[
+                      "<ul class='back-list'>",
+                      "<li class='back-list-item'>Description: hypothetical protein cce_4662 [Cyanothece sp. ATCC 51142]</li>",
+                      "<li class='back-list-item'>Accession: YP_001806076</li>",
+                      "<li class='back-list-item'>Parent organism: Cyanothece sp. ATCC 51142</li>",
+                      "</ul>"
+                    ]
+                  },
+                  "views":null,
+                  "attributes":{
+                    "@type":"java.util.HashMap",
+                    "dismisser":"NCBI_Dismisser"
+                  },
+                  "buttons":{
+                    "@type":"java.util.HashMap",
+                    "fasta":"window.open(\"http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nucleotide&id=YP_001806076&rettype=fasta&retmode=txt\")",
+                    "ncbi":"window.open(\"http://www.ncbi.nlm.nih.gov/protein/YP_001806076?report=genpept\")"
+                  }
+                }
+              ]
+            },
+            "nodesToUpdate":{
+              "@type":"java.util.ArrayList"
+            },
+            "edgeList":{
+              "@type":"java.util.ArrayList"
+            },
+            "recommendations":null,
+            "groupList":{
+              "@type":"java.util.ArrayList"
+            },
+            "recordSetList":{
+              "@type":"java.util.ArrayList"
+            },
+            "canvas":null,
+            "triggerNode":null
+          },
+          {
+            "@type":"gov.pnnl.activedata.data.Bundle",
+            "nodeId":102,
+            "nodeList":{
+              "@type":"java.util.ArrayList",
+              "@items":[
+                {
+                  "@type":"gov.pnnl.activedata.data.DataNode",
+                  "id":1000010,
+                  "groupId":-1,
+                  "isUserData":false,
+                  "x":0.0,
+                  "y":0.0,
+                  "type":{
+                    "@id":1,
+                    "name":"LIST",
+                    "ordinal":14
+                  },
+                  "score":1.0,
+                  "data":"PubMed Titles",
+                  "label":"PubMed Titles",
+                  "badge":30808,
+                  "sections":{
+                    "@type":"java.util.ArrayList",
+                    "@items":[
+                      {
+                        "@type":"gov.pnnl.activedata.data.Section",
+                        "label":"Titles",
+                        "nameValues":{
+                          "@type":"java.util.ArrayList",
+                          "@items":[
+                            {
+                              "@type":"gov.pnnl.activedata.data.NameValue",
+                              "name":"26073095",
+                              "value":"([2015]) Expression, refolding, and characterization of a small laccase from Thermus thermophilus HJ6."
+                            },
+                            {
+                              "@type":"gov.pnnl.activedata.data.NameValue",
+                              "name":"26070689",
+                              "value":"([2015]) Global transcriptome analysis of salt acclimated Prochlorococcus AS9601."
+                            },
+                            {
+                              "@type":"gov.pnnl.activedata.data.NameValue",
+                              "name":"26070345",
+                              "value":"([2015]) Sulfur-Mediated Electron Shuttling Sustains Microbial Long-Distance Extracellular Electron Transfer with the Aid of Metallic Iron Sulfides."
+                            },
+                            {
+                              "@type":"gov.pnnl.activedata.data.NameValue",
+                              "name":"26063429",
+                              "value":"([2015]) Characterization of a novel megabirnavirus from Sclerotinia sclerotiorum reveals horizontal gene transfer from ssRNA virus to dsRNA virus."
+                            },
+                            {
+                              "@type":"gov.pnnl.activedata.data.NameValue",
+                              "name":"26057938",
+                              "value":"([2015]) Bilirubin scavenges chloramines and inhibits myeloperoxidase induced protein/lipid oxidation in physiologically relevant hyperbilirubinaemic serum."
+                            },
+                            {
+                              "@type":"gov.pnnl.activedata.data.NameValue",
+                              "name":"26038504",
+                              "value":"([2015]) Potential impact on kidney infection: a whole-genome analysis of Leptospira santarosai serovar Shermani."
+                            },
+                            {
+                              "@type":"gov.pnnl.activedata.data.NameValue",
+                              "name":"26029879",
+                              "value":"([2015]) The complete mitochondrial genome of the nematode endoparasitic fungus Hirsutella minnesotensis."
+                            },
+                            {
+                              "@type":"gov.pnnl.activedata.data.NameValue",
+                              "name":"26025048",
+                              "value":"([2015]) In silico functional annotation of a hypothetical protein from Staphylococcus aureus."
+                            },
+                            {
+                              "@type":"gov.pnnl.activedata.data.NameValue",
+                              "name":"26018414",
+                              "value":"([2015]) The human pathogen Streptococcus pyogenes releases lipoproteins as Lipoprotein-rich Membrane Vesicles."
+                            },
+                            {
+                              "@type":"gov.pnnl.activedata.data.NameValue",
+                              "name":"26017773",
+                              "value":"([2015]) Updating algal evolutionary relationships through plastid genome sequencing: did alveolate plastids emerge through endosymbiosis of an ochrophyte?"
+                            },
+                            {
+                              "@type":"gov.pnnl.activedata.data.NameValue",
+                              "name":"26017673",
+                              "value":"([2015]) Characterization and PCR Detection Of Binary, Pir-Like Toxins from Vibrio parahaemolyticus Isolates that Cause Acute Hepatopancreatic Necrosis Disease (AHPND) in Shrimp."
+                            },
+                            {
+                              "@type":"gov.pnnl.activedata.data.NameValue",
+                              "name":"26008696",
+                              "value":"([2015]) Molecular Characterization of a Novel Positive-Sense, Single-Stranded RNA Mycovirus Infecting the Plant Pathogenic Fungus Sclerotinia sclerotiorum."
+                            },
+                            {
+                              "@type":"gov.pnnl.activedata.data.NameValue",
+                              "name":"26000032",
+                              "value":"([2015]) A graph modification approach for finding core-periphery structures in protein interaction networks."
+                            },
+                            {
+                              "@type":"gov.pnnl.activedata.data.NameValue",
+                              "name":"25999919",
+                              "value":"([2015]) Phenotypic and transcriptional profiling in Entamoeba histolytica reveal costs to fitness and adaptive responses associated with metronidazole resistance."
+                            },
+                            {
+                              "@type":"gov.pnnl.activedata.data.NameValue",
+                              "name":"25998263",
+                              "value":"([2015]) Phosphoproteomic Analysis of the Chlamydia caviae Elementary Body and Reticulate Body Forms."
+                            },
+                            {
+                              "@type":"gov.pnnl.activedata.data.NameValue",
+                              "name":"25996495",
+                              "value":"([2015]) The Chlamydia pneumoniae Inclusion Membrane Protein Cpn1027 Interacts with Host Cell Wnt Signaling Pathway Regulator Cytoplasmic Activation/Proliferation-Associated Protein 2 (Caprin2)."
+                            },
+                            {
+                              "@type":"gov.pnnl.activedata.data.NameValue",
+                              "name":"25994458",
+                              "value":"([2015]) Comparative modeling of hypothetical amyloid pores based on cylindrin."
+                            },
+                            {
+                              "@type":"gov.pnnl.activedata.data.NameValue",
+                              "name":"26080317",
+                              "value":"([2015]) Take it or leave it: prefrontal control in recreational cocaine users."
+                            },
+                            {
+                              "@type":"gov.pnnl.activedata.data.NameValue",
+                              "name":"26078294",
+                              "value":"([2015]) Grouping Promotes Equality: The Effect of Recipient Grouping on Allocation of Limited Medical Resources."
+                            },
+                            {
+                              "@type":"gov.pnnl.activedata.data.NameValue",
+                              "name":"26077333",
+                              "value":"([2015]) The prevalence and impact of defensive medicine in the radiographic workup of the trauma patient: a pilot study."
+                            },
+                            {
+                              "@type":"gov.pnnl.activedata.data.NameValue",
+                              "name":"26077324",
+                              "value":"([2015]) Augmentation of restless leg syndrome (Willis-Ekbom disease) during long-term dopaminergic treatment."
+                            },
+                            {
+                              "@type":"gov.pnnl.activedata.data.NameValue",
+                              "name":"26076077",
+                              "value":"([2015]) Exploring Health Care Professionals' Perceptions of Incidents and Incident Reporting in Rehabilitation Settings."
+                            },
+                            {
+                              "@type":"gov.pnnl.activedata.data.NameValue",
+                              "name":"26076007",
+                              "value":"([2015]) Acceptability and Willingness-to-Pay for a Hypothetical Ebola Virus Vaccine in Nigeria."
+                            },
+                            {
+                              "@type":"gov.pnnl.activedata.data.NameValue",
+                              "name":"26074857",
+                              "value":"([2015]) Greater decision-making competence is associated with greater expected-value sensitivity, but not overall risk taking: an examination of concurrent validity."
+                            },
+                            {
+                              "@type":"gov.pnnl.activedata.data.NameValue",
+                              "name":"26073095",
+                              "value":"([2015]) Expression, refolding, and characterization of a small laccase from Thermus thermophilus HJ6."
+                            },
+                            {
+                              "@type":"gov.pnnl.activedata.data.NameValue",
+                              "name":"26071009",
+                              "value":"([2015]) Early cost-utility analysis of general and cerebrospinal fluid-specific Alzheimer's disease biomarkers for hypothetical disease-modifying treatment decision in mild cognitive impairment."
+                            },
+                            {
+                              "@type":"gov.pnnl.activedata.data.NameValue",
+                              "name":"26070689",
+                              "value":"([2015]) Global transcriptome analysis of salt acclimated Prochlorococcus AS9601."
+                            },
+                            {
+                              "@type":"gov.pnnl.activedata.data.NameValue",
+                              "name":"26070345",
+                              "value":"([2015]) Sulfur-Mediated Electron Shuttling Sustains Microbial Long-Distance Extracellular Electron Transfer with the Aid of Metallic Iron Sulfides."
+                            },
+                            {
+                              "@type":"gov.pnnl.activedata.data.NameValue",
+                              "name":"26069938",
+                              "value":"([2015]) Cognitive style modulates conscious but not unconscious thought: Comparing the deliberation-without-attention effect in analytics and wholists."
+                            },
+                            {
+                              "@type":"gov.pnnl.activedata.data.NameValue",
+                              "name":"26069726",
+                              "value":"([2015]) Observations of membrane fusion in a liposome dispersion: the missing fusion intermediate?"
+                            },
+                            {
+                              "@type":"gov.pnnl.activedata.data.NameValue",
+                              "name":"26067896",
+                              "value":"([2015]) Synthetic wastewaters treatment by electrocoagulation to remove silver nanoparticles produced by different routes."
+                            },
+                            {
+                              "@type":"gov.pnnl.activedata.data.NameValue",
+                              "name":"26067778",
+                              "value":"([2015]) Preferences for Analgesic Treatments Are Influenced by Probability of the Occurrence of Adverse Effects and the Time to Reach Maximal Therapeutic Effects."
+                            },
+                            {
+                              "@type":"gov.pnnl.activedata.data.NameValue",
+                              "name":"26066469",
+                              "value":"([2015]) X-Linked Dilated Cardiomyopathy: A Cardiospecific Phenotype of Dystrophinopathy."
+                            },
+                            {
+                              "@type":"gov.pnnl.activedata.data.NameValue",
+                              "name":"26066427",
+                              "value":"([2015]) Search for the Dark Photon and the Dark Higgs Boson at Belle."
+                            },
+                            {
+                              "@type":"gov.pnnl.activedata.data.NameValue",
+                              "name":"26066172",
+                              "value":"([2015]) Nonmonotonic flow curves of shear thickening suspensions."
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "@type":"gov.pnnl.activedata.data.Section",
+                        "label":"",
+                        "nameValues":null
+                      },
+                      {
+                        "@type":"gov.pnnl.activedata.data.Section",
+                        "label":"",
+                        "nameValues":{
+                          "@type":"java.util.ArrayList",
+                          "@items":[
+                            {
+                              "@type":"gov.pnnl.activedata.data.NameValue",
+                              "name":"PUBMEDS:hypothetical protein cce_4662, and hypothetical[All Fields]",
+                              "value":"Pubmed Titles List"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  "listValues":{
+                    "@type":"java.util.ArrayList",
+                    "@items":[
+                      "(2015) Expression, refolding, and characterization of a small laccase from Thermus thermophilus HJ6.",
+                      "(2015) Global transcriptome analysis of salt acclimated Prochlorococcus AS9601.",
+                      "(2015) Sulfur-Mediated Electron Shuttling Sustains Microbial Long-Distance Extracellular Electron Transfer with the Aid of Metallic Iron Sulfides.",
+                      "(2015) Characterization of a novel megabirnavirus from Sclerotinia sclerotiorum reveals horizontal gene transfer from ssRNA virus to dsRNA virus.",
+                      "(2015) Bilirubin scavenges chloramines and inhibits myeloperoxidase induced protein/lipid oxidation in physiologically relevant hyperbilirubinaemic serum.",
+                      "(2015) Potential impact on kidney infection: a whole-genome analysis of Leptospira santarosai serovar Shermani.",
+                      "(2015) The complete mitochondrial genome of the nematode endoparasitic fungus Hirsutella minnesotensis.",
+                      "(2015) In silico functional annotation of a hypothetical protein from Staphylococcus aureus.",
+                      "(2015) The human pathogen Streptococcus pyogenes releases lipoproteins as Lipoprotein-rich Membrane Vesicles.",
+                      "(2015) Updating algal evolutionary relationships through plastid genome sequencing: did alveolate plastids emerge through endosymbiosis of an ochrophyte?",
+                      "(2015) Characterization and PCR Detection Of Binary, Pir-Like Toxins from Vibrio parahaemolyticus Isolates that Cause Acute Hepatopancreatic Necrosis Disease (AHPND) in Shrimp.",
+                      "(2015) Molecular Characterization of a Novel Positive-Sense, Single-Stranded RNA Mycovirus Infecting the Plant Pathogenic Fungus Sclerotinia sclerotiorum.",
+                      "(2015) A graph modification approach for finding core-periphery structures in protein interaction networks.",
+                      "(2015) Phenotypic and transcriptional profiling in Entamoeba histolytica reveal costs to fitness and adaptive responses associated with metronidazole resistance.",
+                      "(2015) Phosphoproteomic Analysis of the Chlamydia caviae Elementary Body and Reticulate Body Forms.",
+                      "(2015) The Chlamydia pneumoniae Inclusion Membrane Protein Cpn1027 Interacts with Host Cell Wnt Signaling Pathway Regulator Cytoplasmic Activation/Proliferation-Associated Protein 2 (Caprin2).",
+                      "(2015) Comparative modeling of hypothetical amyloid pores based on cylindrin.",
+                      "(2015) Take it or leave it: prefrontal control in recreational cocaine users.",
+                      "(2015) Grouping Promotes Equality: The Effect of Recipient Grouping on Allocation of Limited Medical Resources.",
+                      "(2015) The prevalence and impact of defensive medicine in the radiographic workup of the trauma patient: a pilot study.",
+                      "(2015) Augmentation of restless leg syndrome (Willis-Ekbom disease) during long-term dopaminergic treatment.",
+                      "(2015) Exploring Health Care Professionals' Perceptions of Incidents and Incident Reporting in Rehabilitation Settings.",
+                      "(2015) Acceptability and Willingness-to-Pay for a Hypothetical Ebola Virus Vaccine in Nigeria.",
+                      "(2015) Greater decision-making competence is associated with greater expected-value sensitivity, but not overall risk taking: an examination of concurrent validity.",
+                      "(2015) Expression, refolding, and characterization of a small laccase from Thermus thermophilus HJ6.",
+                      "(2015) Early cost-utility analysis of general and cerebrospinal fluid-specific Alzheimer's disease biomarkers for hypothetical disease-modifying treatment decision in mild cognitive impairment.",
+                      "(2015) Global transcriptome analysis of salt acclimated Prochlorococcus AS9601.",
+                      "(2015) Sulfur-Mediated Electron Shuttling Sustains Microbial Long-Distance Extracellular Electron Transfer with the Aid of Metallic Iron Sulfides.",
+                      "(2015) Cognitive style modulates conscious but not unconscious thought: Comparing the deliberation-without-attention effect in analytics and wholists.",
+                      "(2015) Observations of membrane fusion in a liposome dispersion: the missing fusion intermediate?",
+                      "(2015) Synthetic wastewaters treatment by electrocoagulation to remove silver nanoparticles produced by different routes.",
+                      "(2015) Preferences for Analgesic Treatments Are Influenced by Probability of the Occurrence of Adverse Effects and the Time to Reach Maximal Therapeutic Effects.",
+                      "(2015) X-Linked Dilated Cardiomyopathy: A Cardiospecific Phenotype of Dystrophinopathy.",
+                      "(2015) Search for the Dark Photon and the Dark Higgs Boson at Belle.",
+                      "(2015) Nonmonotonic flow curves of shear thickening suspensions."
+                    ]
+                  },
+                  "explainers":{
+                    "@type":"java.util.ArrayList",
+                    "@items":[
+                      "Search Query: hypothetical protein cce_4662, and hypothetical[All Fields]",
+                      "Top 35 out of 30808   Relevance Score: 1.0"
+                    ]
+                  },
+                  "views":{
+                    "@type":"java.util.ArrayList",
+                    "@items":[
+                      {
+                        "@type":"gov.pnnl.activedata.data.View",
+                        "type":{"@ref":1},
+                        "url":""
+                      },
+                      {
+                        "@type":"gov.pnnl.activedata.data.View",
+                        "type":{
+                          "name":"WORDCLOUD",
+                          "ordinal":9
+                        },
+                        "url":"view/wordcloud?repo=main&owner=BionautNW&branch=master&keywords=Expression,refolding,and,characterization,of,a,small,laccase,from,Thermus,thermophilus,HJ6.,Global,transcriptome,analysis,of,salt,acclimated,Prochlorococcus,AS9601.,Sulfur-Mediated,Electron,Shuttling,Sustains,Microbial,Long-Distance,Extracellular,Electron,Transfer,with,the,Aid,of,Metallic,Iron,Sulfides.,Characterization,of,a,novel,megabirnavirus,from,Sclerotinia,sclerotiorum,reveals,horizontal,gene,transfer,from,ssRNA,virus,to,dsRNA,virus.,Bilirubin,scavenges,chloramines,and,inhibits,myeloperoxidase,induced,protein/lipid,oxidation,in,physiologically,relevant,hyperbilirubinaemic,serum.,Potential,impact,on,kidney,infection:,a,whole-genome,analysis,of,Leptospira,santarosai,serovar,Shermani.,The,complete,mitochondrial,genome,of,the,nematode,endoparasitic,fungus,Hirsutella,minnesotensis.,In,silico,functional,annotation,of,a,hypothetical,protein,from,Staphylococcus,aureus.,The,human,pathogen,Streptococcus,pyogenes,releases,lipoproteins,as,Lipoprotein-rich,Membrane,Vesicles.,Updating,algal,evolutionary,relationships,through,plastid,genome,sequencing:,did,alveolate,plastids,emerge,through,endosymbiosis,of,an,ochrophyte?,Characterization,and,PCR,Detection,Of,Binary,Pir-Like,Toxins,from,Vibrio,parahaemolyticus,Isolates,that,Cause,Acute,Hepatopancreatic,Necrosis,Disease,(AHPND),in,Shrimp.,Molecular,Characterization,of,a,Novel,Positive-Sense,Single-Stranded,RNA,Mycovirus,Infecting,the,Plant,Pathogenic,Fungus,Sclerotinia,sclerotiorum.,A,graph,modification,approach,for,finding,core-periphery,structures,in,protein,interaction,networks.,Phenotypic,and,transcriptional,profiling,in,Entamoeba,histolytica,reveal,costs,to,fitness,and,adaptive,responses,associated,with,metronidazole,resistance.,Phosphoproteomic,Analysis,of,the,Chlamydia,caviae,Elementary,Body,and,Reticulate,Body,Forms.,The,Chlamydia,pneumoniae,Inclusion,Membrane,Protein,Cpn1027,Interacts,with,Host,Cell,Wnt,Signaling,Pathway,Regulator,Cytoplasmic,Activation/Proliferation-Associated,Protein,2,(Caprin2).,Comparative,modeling,of,hypothetical,amyloid,pores,based,on,cylindrin.,Take,it,or,leave,it:,prefrontal,control,in,recreational,cocaine,users.,Grouping,Promotes,Equality:,The,Effect,of,Recipient,Grouping,on,Allocation,of,Limited,Medical,Resources.,The,prevalence,and,impact,of,defensive,medicine,in,the,radiographic,workup,of,the,trauma,patient:,a,pilot,study.,Augmentation,of,restless,leg,syndrome,(Willis-Ekbom,disease),during,long-term,dopaminergic,treatment.,Exploring,Health,Care,Professionals',Perceptions,of,Incidents,and,Incident,Reporting,in,Rehabilitation,Settings.,Acceptability,and,Willingness-to-Pay,for,a,Hypothetical,Ebola,Virus,Vaccine,in,Nigeria.,Greater,decision-making,competence,is,associated,with,greater,expected-value,sensitivity,but,not,overall,risk,taking:,an,examination,of,concurrent,validity.,Expression,refolding,and,characterization,of,a,small,laccase,from,Thermus,thermophilus,HJ6.,Early,cost-utility,analysis,of,general,and,cerebrospinal,fluid-specific,Alzheimer's,disease,biomarkers,for,hypothetical,disease-modifying,treatment,decision,in,mild,cognitive,impairment.,Global,transcriptome,analysis,of,salt,acclimated,Prochlorococcus,AS9601.,Sulfur-Mediated,Electron,Shuttling,Sustains,Microbial,Long-Distance,Extracellular,Electron,Transfer,with,the,Aid,of,Metallic,Iron,Sulfides.,Cognitive,style,modulates,conscious,but,not,unconscious,thought:,Comparing,the,deliberation-without-attention,effect,in,analytics,and,wholists.,Observations,of,membrane,fusion,in,a,liposome,dispersion:,the,missing,fusion,intermediate?,Synthetic,wastewaters,treatment,by,electrocoagulation,to,remove,silver,nanoparticles,produced,by,different,routes.,Preferences,for,Analgesic,Treatments,Are,Influenced,by,Probability,of,the,Occurrence,of,Adverse,Effects,and,the,Time,to,Reach,Maximal,Therapeutic,Effects.,X-Linked,Dilated,Cardiomyopathy:,A,Cardiospecific,Phenotype,of,Dystrophinopathy.,Search,for,the,Dark,Photon,and,the,Dark,Higgs,Boson,at,Belle.,Nonmonotonic,flow,curves,of,shear,thickening,suspensions."
+                      },
+                      {
+                        "@type":"gov.pnnl.activedata.data.View",
+                        "type":{
+                          "name":"GRAPH",
+                          "ordinal":10
+                        },
+                        "url":"view/sparkline?years=2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015&source=PUBMED&repo=main"
+                      }
+                    ]
+                  },
+                  "attributes":{
+                    "@type":"java.util.HashMap",
+                    "dismisser":"PUBMED_Dismisser"
+                  },
+                  "buttons":{
+                    "@type":"java.util.HashMap",
+                    "gopub":"window.open(\"http://www.ncbi.nlm.nih.gov/pubmed/?term=hypothetical[All+Fields]\")"
+                  }
+                }
+              ]
+            },
+            "nodesToUpdate":{
+              "@type":"java.util.ArrayList"
+            },
+            "edgeList":{
+              "@type":"java.util.ArrayList"
+            },
+            "recommendations":null,
+            "groupList":{
+              "@type":"java.util.ArrayList"
+            },
+            "recordSetList":{
+              "@type":"java.util.ArrayList"
+            },
+            "canvas":null,
+            "triggerNode":null
+          },
+          {
+            "@type":"gov.pnnl.activedata.data.Bundle",
+            "nodeId":102,
+            "nodeList":{
+              "@type":"java.util.ArrayList"
+            },
+            "nodesToUpdate":{
+              "@type":"java.util.ArrayList"
+            },
+            "edgeList":{
+              "@type":"java.util.ArrayList"
+            },
+            "recommendations":null,
+            "groupList":{
+              "@type":"java.util.ArrayList"
+            },
+            "recordSetList":{
+              "@type":"java.util.ArrayList"
+            },
+            "canvas":null,
+            "triggerNode":null
+          }
+        ]
+      }
+    ]
   },
   "nodeRecommendationMap":{
     "@type":"java.util.HashMap"
