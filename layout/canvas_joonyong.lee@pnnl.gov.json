@@ -3,7 +3,7 @@
   "id":101,
   "name":"main_joonyong.lee@pnnl.gov",
   "creationDate":1434993706095,
-  "lastModifiedDate":1435017487068,
+  "lastModifiedDate":1435017538982,
   "users":{
     "@type":"java.util.ArrayList",
     "@items":[
@@ -18,13 +18,13 @@
     "@type":"java.util.ArrayList",
     "@items":[
       {
-        "@id":3,
+        "@id":5,
         "@type":"gov.pnnl.activedata.data.DataNode",
         "id":1435017487068,
         "groupId":-1,
         "isUserData":true,
-        "x":960.0,
-        "y":500.0,
+        "x":1199.964799483718,
+        "y":519.5999999999999,
         "type":{
           "@id":2,
           "name":"PROTEIN",
@@ -39,7 +39,35 @@
         "explainers":null,
         "views":null,
         "attributes":{
+          "@type":"java.util.LinkedHashMap"
+        },
+        "buttons":{
           "@type":"java.util.HashMap"
+        }
+      },
+      {
+        "@id":4,
+        "@type":"gov.pnnl.activedata.data.DataNode",
+        "id":1435017538982,
+        "groupId":-1,
+        "isUserData":true,
+        "x":524.9845997741267,
+        "y":389.69999999999993,
+        "type":{
+          "@id":3,
+          "name":"PROTEIN_GROUP",
+          "ordinal":16
+        },
+        "score":0.0,
+        "data":"null;node386;80;19;main;BionautNW;master",
+        "label":"node386",
+        "badge":0,
+        "sections":null,
+        "listValues":null,
+        "explainers":null,
+        "views":null,
+        "attributes":{
+          "@type":"java.util.LinkedHashMap"
         },
         "buttons":{
           "@type":"java.util.HashMap"
