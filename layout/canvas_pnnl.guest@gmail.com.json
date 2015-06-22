@@ -1,20 +1,52 @@
 {
   "@type":"gov.pnnl.activedata.data.Canvas",
-  "id":103,
-  "name":"main_pnnl.guest@gmail.com",
-  "creationDate":1434996707259,
-  "lastModifiedDate":1434996707259,
+  "id":104,
+  "name":"Sample01_pnnl.guest@gmail.com",
+  "creationDate":1434579059745,
+  "lastModifiedDate":1434996698931,
   "users":{
     "@type":"java.util.ArrayList",
     "@items":[
       {
         "@type":"gov.pnnl.activedata.data.ADUser",
         "id":0,
-        "name":"main_pnnl.guest@gmail.com"
+        "name":"Sample01_pnnl.guest@gmail.com"
       }
     ]
   },
-  "userDataNodes":null,
+  "userDataNodes":{
+    "@type":"java.util.ArrayList",
+    "@items":[
+      {
+        "@id":2,
+        "@type":"gov.pnnl.activedata.data.DataNode",
+        "id":102,
+        "groupId":-1,
+        "isUserData":true,
+        "x":599.982399741859,
+        "y":519.5999999999999,
+        "type":{
+          "@id":1,
+          "name":"PATHWAY",
+          "ordinal":20
+        },
+        "score":0.0,
+        "data":";hsa00010;node1662;Sample01;PNNL-Comp-Mass-Spec;master",
+        "label":"hsa00010",
+        "badge":0,
+        "sections":null,
+        "listValues":null,
+        "explainers":null,
+        "views":null,
+        "attributes":{
+          "@type":"java.util.LinkedHashMap"
+        },
+        "buttons":{
+          "@type":"java.util.HashMap"
+        }
+      }
+    ]
+  },
   "userEdges":null,
   "groups":null
 }
