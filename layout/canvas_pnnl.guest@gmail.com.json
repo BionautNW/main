@@ -3,7 +3,7 @@
   "id":113,
   "name":"main_pnnl.guest@gmail.com",
   "creationDate":1435170185217,
-  "lastModifiedDate":1435338749160,
+  "lastModifiedDate":1435347545311,
   "users":{
     "@type":"java.util.ArrayList",
     "@items":[
@@ -15,37 +15,7 @@
     ]
   },
   "userDataNodes":{
-    "@type":"java.util.ArrayList",
-    "@items":[
-      {
-        "@id":3,
-        "@type":"gov.pnnl.activedata.data.DataNode",
-        "id":101,
-        "groupId":-1,
-        "isUserData":true,
-        "x":599.982399741859,
-        "y":519.5999999999999,
-        "type":{
-          "@id":2,
-          "name":"PROTEIN",
-          "ordinal":17
-        },
-        "score":0.0,
-        "data":";YP_001806076.1;main;BionautNW;master",
-        "label":"YP_001806076.1",
-        "badge":0,
-        "sections":null,
-        "listValues":null,
-        "explainers":null,
-        "views":null,
-        "attributes":{
-          "@type":"java.util.LinkedHashMap"
-        },
-        "buttons":{
-          "@type":"java.util.HashMap"
-        }
-      }
-    ]
+    "@type":"java.util.ArrayList"
   },
   "userEdges":null,
   "groups":null
