@@ -18,7 +18,6 @@
     "@type":"java.util.ArrayList",
     "@items":[
       {
-        "@id":3,
         "@type":"gov.pnnl.activedata.data.DataNode",
         "id":101,
         "groupId":-1,
@@ -26,7 +25,6 @@
         "x":599.982399741859,
         "y":519.5999999999999,
         "type":{
-          "@id":2,
           "name":"PROTEIN",
           "ordinal":17
         },
