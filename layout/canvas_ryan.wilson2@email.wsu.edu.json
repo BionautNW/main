@@ -25,7 +25,7 @@
         "x":224.99339990319714,
         "y":389.69999999999993,
         "type":{
-          "@id":9,
+          "@id":3,
           "name":"TEXT",
           "ordinal":0
         },
@@ -71,7 +71,7 @@
         }
       },
       {
-        "@id":8,
+        "@id":2,
         "@type":"gov.pnnl.activedata.data.DataNode",
         "id":102,
         "groupId":-1,
@@ -79,7 +79,7 @@
         "x":960.0,
         "y":500.0,
         "type":{
-          "@id":2,
+          "@id":1,
           "name":"PROTEIN",
           "ordinal":17
         },
@@ -99,7 +99,6 @@
         }
       },
       {
-        "@id":7,
         "@type":"gov.pnnl.activedata.data.DataNode",
         "id":103,
         "groupId":-1,
@@ -107,7 +106,6 @@
         "x":449.9867998063943,
         "y":519.5999999999999,
         "type":{
-          "@id":5,
           "name":"PROTEIN_GROUP",
           "ordinal":16
         },
@@ -133,7 +131,7 @@
         "isUserData":true,
         "x":1049.9691995482533,
         "y":519.5999999999999,
-        "type":{"@ref":9},
+        "type":{"@ref":3},
         "score":0.0,
         "data":"main",
         "label":null,
@@ -150,14 +148,13 @@
         }
       },
       {
-        "@id":6,
         "@type":"gov.pnnl.activedata.data.DataNode",
         "id":101,
         "groupId":-1,
         "isUserData":true,
         "x":960.0,
         "y":500.0,
-        "type":{"@ref":2},
+        "type":{"@ref":1},
         "score":0.0,
         "data":";YP_001802083.1;main;BionautNW;master",
         "label":"YP_001802083.1",
