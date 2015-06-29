@@ -3,7 +3,7 @@
   "id":101,
   "name":"main_ryan.wilson2@email.wsu.edu",
   "creationDate":1434054080168,
-  "lastModifiedDate":1435603110428,
+  "lastModifiedDate":1435603370586,
   "users":{
     "@type":"java.util.ArrayList",
     "@items":[
@@ -22,10 +22,10 @@
         "id":102,
         "groupId":-1,
         "isUserData":true,
-        "x":974.9713995805209,
-        "y":649.4999999999999,
+        "x":374.98899983866187,
+        "y":389.69999999999993,
         "type":{
-          "@id":8,
+          "@id":11,
           "name":"TEXT",
           "ordinal":0
         },
@@ -45,20 +45,20 @@
         }
       },
       {
-        "@id":7,
+        "@id":10,
         "@type":"gov.pnnl.activedata.data.DataNode",
         "id":101,
         "groupId":-1,
         "isUserData":true,
-        "x":224.99339990319714,
-        "y":389.69999999999993,
+        "x":1049.9691995482533,
+        "y":519.5999999999999,
         "type":{
-          "@id":4,
+          "@id":6,
           "name":"PATHWAY",
           "ordinal":20
         },
         "score":0.0,
-        "data":";cyt01100;node381;main;BionautNW;master",
+        "data":";YP_001802083.1;main;BionautNW;master",
         "label":"cyt01100",
         "badge":0,
         "sections":null,
@@ -73,7 +73,7 @@
         }
       },
       {
-        "@id":6,
+        "@id":9,
         "@type":"gov.pnnl.activedata.data.DataNode",
         "id":102,
         "groupId":-1,
@@ -101,7 +101,7 @@
         }
       },
       {
-        "@id":5,
+        "@id":8,
         "@type":"gov.pnnl.activedata.data.DataNode",
         "id":103,
         "groupId":-1,
@@ -109,7 +109,7 @@
         "x":524.9845997741267,
         "y":649.4999999999999,
         "type":{
-          "@id":3,
+          "@id":5,
           "name":"PROTEIN_GROUP",
           "ordinal":16
         },
@@ -135,7 +135,7 @@
         "isUserData":true,
         "x":674.9801997095914,
         "y":129.89999999999998,
-        "type":{"@ref":8},
+        "type":{"@ref":11},
         "score":0.0,
         "data":"main",
         "label":null,
@@ -146,6 +146,30 @@
         "views":null,
         "attributes":{
           "@type":"java.util.LinkedHashMap"
+        },
+        "buttons":{
+          "@type":"java.util.HashMap"
+        }
+      },
+      {
+        "@id":7,
+        "@type":"gov.pnnl.activedata.data.DataNode",
+        "id":101,
+        "groupId":-1,
+        "isUserData":true,
+        "x":960.0,
+        "y":500.0,
+        "type":{"@ref":2},
+        "score":0.0,
+        "data":";YP_001802083.1;main;BionautNW;master",
+        "label":"YP_001802083.1",
+        "badge":0,
+        "sections":null,
+        "listValues":null,
+        "explainers":null,
+        "views":null,
+        "attributes":{
+          "@type":"java.util.HashMap"
         },
         "buttons":{
           "@type":"java.util.HashMap"
