@@ -3,7 +3,7 @@
   "id":101,
   "name":"main_ryan.wilson2@email.wsu.edu",
   "creationDate":1434054080168,
-  "lastModifiedDate":1435178633824,
+  "lastModifiedDate":1435603110428,
   "users":{
     "@type":"java.util.ArrayList",
     "@items":[
@@ -22,14 +22,123 @@
         "id":102,
         "groupId":-1,
         "isUserData":true,
-        "x":524.9845997741267,
-        "y":389.69999999999993,
+        "x":974.9713995805209,
+        "y":909.2999999999998,
         "type":{
+          "@id":8,
           "name":"TEXT",
           "ordinal":0
         },
         "score":0.0,
-        "data":"this is main",
+        "data":";YP_001805814.1;main;BionautNW;master",
+        "label":null,
+        "badge":0,
+        "sections":null,
+        "listValues":null,
+        "explainers":null,
+        "views":null,
+        "attributes":{
+          "@type":"java.util.LinkedHashMap",
+          "PUBMEDS:dihydroxy-acid dehydratase":"Pubmed Titles List"
+        },
+        "buttons":{
+          "@type":"java.util.HashMap"
+        }
+      },
+      {
+        "@id":7,
+        "@type":"gov.pnnl.activedata.data.DataNode",
+        "id":101,
+        "groupId":-1,
+        "isUserData":true,
+        "x":149.99559993546475,
+        "y":519.5999999999999,
+        "type":{
+          "@id":2,
+          "name":"PATHWAY",
+          "ordinal":20
+        },
+        "score":0.0,
+        "data":";cyt01100;node381;main;BionautNW;master",
+        "label":"cyt01100",
+        "badge":0,
+        "sections":null,
+        "listValues":null,
+        "explainers":null,
+        "views":null,
+        "attributes":{
+          "@type":"java.util.LinkedHashMap"
+        },
+        "buttons":{
+          "@type":"java.util.HashMap"
+        }
+      },
+      {
+        "@id":6,
+        "@type":"gov.pnnl.activedata.data.DataNode",
+        "id":102,
+        "groupId":-1,
+        "isUserData":true,
+        "x":960.0,
+        "y":500.0,
+        "type":{
+          "@id":4,
+          "name":"PROTEIN",
+          "ordinal":17
+        },
+        "score":0.0,
+        "data":";YP_001805814.1;main;BionautNW;master",
+        "label":"YP_001805814.1",
+        "badge":0,
+        "sections":null,
+        "listValues":null,
+        "explainers":null,
+        "views":null,
+        "attributes":{
+          "@type":"java.util.HashMap"
+        },
+        "buttons":{
+          "@type":"java.util.HashMap"
+        }
+      },
+      {
+        "@id":5,
+        "@type":"gov.pnnl.activedata.data.DataNode",
+        "id":103,
+        "groupId":-1,
+        "isUserData":true,
+        "x":974.9713995805209,
+        "y":389.69999999999993,
+        "type":{
+          "@id":1,
+          "name":"PROTEIN_GROUP",
+          "ordinal":16
+        },
+        "score":0.0,
+        "data":"null;node381;63;21;main;BionautNW;master",
+        "label":"node381",
+        "badge":0,
+        "sections":null,
+        "listValues":null,
+        "explainers":null,
+        "views":null,
+        "attributes":{
+          "@type":"java.util.LinkedHashMap"
+        },
+        "buttons":{
+          "@type":"java.util.HashMap"
+        }
+      },
+      {
+        "@type":"gov.pnnl.activedata.data.DataNode",
+        "id":104,
+        "groupId":-1,
+        "isUserData":true,
+        "x":749.9779996773237,
+        "y":259.79999999999995,
+        "type":{"@ref":8},
+        "score":0.0,
+        "data":"main",
         "label":null,
         "badge":0,
         "sections":null,
