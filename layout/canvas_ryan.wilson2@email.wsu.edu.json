@@ -22,7 +22,7 @@
         "id":102,
         "groupId":-1,
         "isUserData":true,
-        "x":374.98899983866187,
+        "x":974.9713995805209,
         "y":649.4999999999999,
         "type":{
           "@id":8,
@@ -38,8 +38,7 @@
         "explainers":null,
         "views":null,
         "attributes":{
-          "@type":"java.util.LinkedHashMap",
-          "PROTEIN:YP_001805814":"dihydroxy-acid dehydratase [Cyanothece sp. ATCC 51142]"
+          "@type":"java.util.LinkedHashMap"
         },
         "buttons":{
           "@type":"java.util.HashMap"
@@ -51,8 +50,8 @@
         "id":101,
         "groupId":-1,
         "isUserData":true,
-        "x":149.99559993546475,
-        "y":519.5999999999999,
+        "x":224.99339990319714,
+        "y":389.69999999999993,
         "type":{
           "@id":4,
           "name":"PATHWAY",
@@ -107,7 +106,7 @@
         "id":103,
         "groupId":-1,
         "isUserData":true,
-        "x":824.9757996450561,
+        "x":524.9845997741267,
         "y":649.4999999999999,
         "type":{
           "@id":3,
@@ -134,8 +133,8 @@
         "id":104,
         "groupId":-1,
         "isUserData":true,
-        "x":749.9779996773237,
-        "y":259.79999999999995,
+        "x":674.9801997095914,
+        "y":129.89999999999998,
         "type":{"@ref":8},
         "score":0.0,
         "data":"main",
@@ -146,7 +145,7 @@
         "explainers":null,
         "views":null,
         "attributes":{
-          "@type":"java.util.HashMap"
+          "@type":"java.util.LinkedHashMap"
         },
         "buttons":{
           "@type":"java.util.HashMap"
