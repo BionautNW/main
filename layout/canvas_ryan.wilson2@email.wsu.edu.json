@@ -3,7 +3,7 @@
   "id":1435678980312,
   "name":"main_ryan.wilson2@email.wsu.edu",
   "creationDate":1435678980312,
-  "lastModifiedDate":1435678980312,
+  "lastModifiedDate":1435701397426,
   "users":{
     "@type":"java.util.ArrayList",
     "@items":[
@@ -14,7 +14,37 @@
       }
     ]
   },
-  "userDataNodes":null,
+  "userDataNodes":{
+    "@type":"java.util.ArrayList",
+    "@items":[
+      {
+        "@type":"gov.pnnl.activedata.data.DataNode",
+        "id":1435701397426,
+        "groupId":-1,
+        "isUserData":true,
+        "x":674.9801997095914,
+        "y":389.69999999999993,
+        "type":{
+          "name":"TEXT",
+          "ordinal":0
+        },
+        "score":0.0,
+        "data":"this is main",
+        "label":null,
+        "badge":0,
+        "sections":null,
+        "listValues":null,
+        "explainers":null,
+        "views":null,
+        "attributes":{
+          "@type":"java.util.HashMap"
+        },
+        "buttons":{
+          "@type":"java.util.HashMap"
+        }
+      }
+    ]
+  },
   "userEdges":null,
   "groups":null
 }
