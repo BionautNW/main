@@ -3,7 +3,7 @@
   "id":1435772253968,
   "name":"main_ralafrance222@gmail.com",
   "creationDate":1435772253968,
-  "lastModifiedDate":1435772253968,
+  "lastModifiedDate":1435793629263,
   "users":{
     "@type":"java.util.ArrayList",
     "@items":[
@@ -14,7 +14,37 @@
       }
     ]
   },
-  "userDataNodes":null,
+  "userDataNodes":{
+    "@type":"java.util.ArrayList",
+    "@items":[
+      {
+        "@type":"gov.pnnl.activedata.data.DataNode",
+        "id":1435793629263,
+        "groupId":-1,
+        "isUserData":true,
+        "x":299.9911998709295,
+        "y":259.79999999999995,
+        "type":{
+          "name":"TEXT",
+          "ordinal":0
+        },
+        "score":0.0,
+        "data":"asdf",
+        "label":null,
+        "badge":0,
+        "sections":null,
+        "listValues":null,
+        "explainers":null,
+        "views":null,
+        "attributes":{
+          "@type":"java.util.HashMap"
+        },
+        "buttons":{
+          "@type":"java.util.HashMap"
+        }
+      }
+    ]
+  },
   "userEdges":null,
   "groups":null
 }
