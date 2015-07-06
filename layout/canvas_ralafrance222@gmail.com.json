@@ -3,7 +3,7 @@
   "id":1435772253968,
   "name":"main_ralafrance222@gmail.com",
   "creationDate":1435772253968,
-  "lastModifiedDate":1436204993103,
+  "lastModifiedDate":1436205415860,
   "users":{
     "@type":"java.util.ArrayList",
     "@items":[
@@ -39,7 +39,8 @@
         "explainers":null,
         "views":null,
         "attributes":{
-          "@type":"java.util.HashMap"
+          "@type":"java.util.HashMap",
+          "PROTEIN:YP_001805815":"DNA gyrase subunit A [Cyanothece sp. ATCC 51142]"
         },
         "buttons":{
           "@type":"java.util.HashMap"
@@ -71,6 +72,22 @@
       }
     ]
   },
-  "userEdges":null,
+  "userEdges":{
+    "@type":"java.util.ArrayList",
+    "@items":[
+      {
+        "@type":"gov.pnnl.activedata.data.Edge",
+        "id":1436205415860,
+        "sourceNodeID":1436204986889,
+        "targetNodeID":1436204987336,
+        "label":null,
+        "type":{
+          "name":"SOLID",
+          "ordinal":1
+        },
+        "evidenceNodes":null
+      }
+    ]
+  },
   "groups":null
 }
