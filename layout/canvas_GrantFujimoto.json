@@ -1,0 +1,20 @@
+{
+  "@type":"gov.pnnl.activedata.data.Canvas",
+  "id":1436225062404,
+  "name":"main_GrantFujimoto",
+  "creationDate":1436225062404,
+  "lastModifiedDate":1436225062404,
+  "users":{
+    "@type":"java.util.ArrayList",
+    "@items":[
+      {
+        "@type":"gov.pnnl.activedata.data.ADUser",
+        "id":0,
+        "name":"main_GrantFujimoto"
+      }
+    ]
+  },
+  "userDataNodes":null,
+  "userEdges":null,
+  "groups":null
+}
