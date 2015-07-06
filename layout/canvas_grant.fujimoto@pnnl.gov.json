@@ -1,0 +1,20 @@
+{
+  "@type":"gov.pnnl.activedata.data.Canvas",
+  "id":1436221967233,
+  "name":"main_grant.fujimoto@pnnl.gov",
+  "creationDate":1436221967233,
+  "lastModifiedDate":1436221967233,
+  "users":{
+    "@type":"java.util.ArrayList",
+    "@items":[
+      {
+        "@type":"gov.pnnl.activedata.data.ADUser",
+        "id":0,
+        "name":"main_grant.fujimoto@pnnl.gov"
+      }
+    ]
+  },
+  "userDataNodes":null,
+  "userEdges":null,
+  "groups":null
+}
