@@ -18,7 +18,6 @@
     "@type":"java.util.ArrayList",
     "@items":[
       {
-        "@id":13,
         "@type":"gov.pnnl.activedata.data.DataNode",
         "id":1436202302476,
         "groupId":-1,
@@ -26,7 +25,7 @@
         "x":674.9801997095914,
         "y":649.4999999999999,
         "type":{
-          "@id":5,
+          "@id":2,
           "name":"PATHWAY",
           "ordinal":20
         },
@@ -47,14 +46,13 @@
         }
       },
       {
-        "@id":12,
         "@type":"gov.pnnl.activedata.data.DataNode",
         "id":1436202303458,
         "groupId":-1,
         "isUserData":true,
         "x":749.9779996773237,
         "y":259.79999999999995,
-        "type":{"@ref":5},
+        "type":{"@ref":2},
         "score":0.0,
         "data":";cyt01230;node397;main;BionautNW;master",
         "label":"cyt01230",
@@ -72,14 +70,13 @@
         }
       },
       {
-        "@id":11,
         "@type":"gov.pnnl.activedata.data.DataNode",
         "id":1436202483962,
         "groupId":-1,
         "isUserData":true,
         "x":224.99339990319714,
         "y":129.89999999999998,
-        "type":{"@ref":5},
+        "type":{"@ref":2},
         "score":0.0,
         "data":";cyt01100;node396;main;BionautNW;master",
         "label":"cyt01100",
@@ -96,14 +93,13 @@
         }
       },
       {
-        "@id":10,
         "@type":"gov.pnnl.activedata.data.DataNode",
         "id":1436202485522,
         "groupId":-1,
         "isUserData":true,
         "x":299.9911998709295,
         "y":519.5999999999999,
-        "type":{"@ref":5},
+        "type":{"@ref":2},
         "score":0.0,
         "data":";cyt01230;node396;main;BionautNW;master",
         "label":"cyt01230",
@@ -120,7 +116,6 @@
         }
       },
       {
-        "@id":9,
         "@type":"gov.pnnl.activedata.data.DataNode",
         "id":1436202489386,
         "groupId":-1,
@@ -128,7 +123,7 @@
         "x":1049.9691995482533,
         "y":259.79999999999995,
         "type":{
-          "@id":2,
+          "@id":1,
           "name":"PROTEIN",
           "ordinal":17
         },
@@ -148,14 +143,13 @@
         }
       },
       {
-        "@id":8,
         "@type":"gov.pnnl.activedata.data.DataNode",
         "id":1436202490282,
         "groupId":-1,
         "isUserData":true,
         "x":1199.964799483718,
         "y":779.3999999999999,
-        "type":{"@ref":2},
+        "type":{"@ref":1},
         "score":0.0,
         "data":";YP_001806131.1;main;BionautNW;master",
         "label":"YP_001806131.1",
@@ -172,7 +166,6 @@
         }
       },
       {
-        "@id":7,
         "@type":"gov.pnnl.activedata.data.DataNode",
         "id":1436202495572,
         "groupId":-1,
@@ -180,7 +173,6 @@
         "x":1274.9625994514504,
         "y":389.69999999999993,
         "type":{
-          "@id":6,
           "name":"PROTEIN_GROUP",
           "ordinal":16
         },
