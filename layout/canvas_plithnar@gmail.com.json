@@ -3,7 +3,7 @@
   "id":1436200982478,
   "name":"main_plithnar@gmail.com",
   "creationDate":1436200982478,
-  "lastModifiedDate":1436201898642,
+  "lastModifiedDate":1436202294673,
   "users":{
     "@type":"java.util.ArrayList",
     "@items":[
@@ -15,80 +15,10 @@
     ]
   },
   "userDataNodes":{
-    "@type":"java.util.ArrayList",
-    "@items":[
-      {
-        "@id":3,
-        "@type":"gov.pnnl.activedata.data.DataNode",
-        "id":1436201783165,
-        "groupId":-1,
-        "isUserData":true,
-        "x":824.9757996450561,
-        "y":389.69999999999993,
-        "type":{
-          "@id":1,
-          "name":"PATHWAY",
-          "ordinal":20
-        },
-        "score":0.0,
-        "data":";cyt01110;node397;main;BionautNW;master",
-        "label":"cyt01110",
-        "badge":0,
-        "sections":null,
-        "listValues":null,
-        "explainers":null,
-        "views":null,
-        "attributes":{
-          "@type":"java.util.LinkedHashMap",
-          "KEGG:cyt01110":"Kegg pathway map image"
-        },
-        "buttons":{
-          "@type":"java.util.HashMap"
-        }
-      },
-      {
-        "@id":2,
-        "@type":"gov.pnnl.activedata.data.DataNode",
-        "id":1436201784661,
-        "groupId":-1,
-        "isUserData":true,
-        "x":899.9735996127886,
-        "y":259.79999999999995,
-        "type":{"@ref":1},
-        "score":0.0,
-        "data":";cyt01100;node397;main;BionautNW;master",
-        "label":"cyt01100",
-        "badge":0,
-        "sections":null,
-        "listValues":null,
-        "explainers":null,
-        "views":null,
-        "attributes":{
-          "@type":"java.util.LinkedHashMap",
-          "KEGG:cyt01100":"Kegg pathway map image"
-        },
-        "buttons":{
-          "@type":"java.util.HashMap"
-        }
-      }
-    ]
+    "@type":"java.util.ArrayList"
   },
   "userEdges":{
-    "@type":"java.util.ArrayList",
-    "@items":[
-      {
-        "@type":"gov.pnnl.activedata.data.Edge",
-        "id":1436201827453,
-        "sourceNodeID":1436201783165,
-        "targetNodeID":1436201784661,
-        "label":null,
-        "type":{
-          "name":"SOLID",
-          "ordinal":1
-        },
-        "evidenceNodes":null
-      }
-    ]
+    "@type":"java.util.ArrayList"
   },
   "groups":null
 }
