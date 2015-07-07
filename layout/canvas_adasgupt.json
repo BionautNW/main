@@ -1,0 +1,20 @@
+{
+  "@type":"gov.pnnl.activedata.data.Canvas",
+  "id":1436299732740,
+  "name":"main_adasgupt",
+  "creationDate":1436299732740,
+  "lastModifiedDate":1436299732740,
+  "users":{
+    "@type":"java.util.ArrayList",
+    "@items":[
+      {
+        "@type":"gov.pnnl.activedata.data.ADUser",
+        "id":0,
+        "name":"main_adasgupt"
+      }
+    ]
+  },
+  "userDataNodes":null,
+  "userEdges":null,
+  "groups":null
+}
