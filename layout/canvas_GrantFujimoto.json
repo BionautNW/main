@@ -1,9 +1,9 @@
 {
   "@type":"gov.pnnl.activedata.data.Canvas",
-  "id":1436381810219,
+  "id":1436381829482,
   "name":"main_GrantFujimoto",
-  "creationDate":1436381810219,
-  "lastModifiedDate":1436381810219,
+  "creationDate":1436381829482,
+  "lastModifiedDate":1436381829482,
   "users":{
     "@type":"java.util.ArrayList",
     "@items":[
