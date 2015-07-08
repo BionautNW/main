@@ -3,7 +3,7 @@
   "id":1436221423060,
   "name":"main_plithnar@gmail.com",
   "creationDate":1436221423060,
-  "lastModifiedDate":1436372221406,
+  "lastModifiedDate":1436372670536,
   "users":{
     "@type":"java.util.ArrayList",
     "@items":[
@@ -18,15 +18,15 @@
     "@type":"java.util.ArrayList",
     "@items":[
       {
-        "@id":7,
+        "@id":18,
         "@type":"gov.pnnl.activedata.data.DataNode",
         "id":1436372215759,
         "groupId":-1,
         "isUserData":true,
-        "x":960.0,
-        "y":500.0,
+        "x":824.9757996450561,
+        "y":649.4999999999999,
         "type":{
-          "@id":4,
+          "@id":2,
           "name":"PROTEIN",
           "ordinal":17
         },
@@ -39,22 +39,22 @@
         "explainers":null,
         "views":null,
         "attributes":{
-          "@type":"java.util.HashMap"
+          "@type":"java.util.LinkedHashMap"
         },
         "buttons":{
           "@type":"java.util.HashMap"
         }
       },
       {
-        "@id":6,
+        "@id":17,
         "@type":"gov.pnnl.activedata.data.DataNode",
         "id":1436372218608,
         "groupId":-1,
         "isUserData":true,
-        "x":599.982399741859,
+        "x":1049.9691995482533,
         "y":259.79999999999995,
         "type":{
-          "@id":2,
+          "@id":3,
           "name":"PATHWAY",
           "ordinal":20
         },
@@ -74,15 +74,15 @@
         }
       },
       {
-        "@id":5,
+        "@id":16,
         "@type":"gov.pnnl.activedata.data.DataNode",
         "id":1436372221406,
         "groupId":-1,
         "isUserData":true,
-        "x":524.9845997741267,
-        "y":649.4999999999999,
+        "x":374.98899983866187,
+        "y":909.2999999999998,
         "type":{
-          "@id":1,
+          "@id":6,
           "name":"PROTEIN_GROUP",
           "ordinal":16
         },
@@ -100,9 +100,272 @@
         "buttons":{
           "@type":"java.util.HashMap"
         }
+      },
+      {
+        "@id":15,
+        "@type":"gov.pnnl.activedata.data.DataNode",
+        "id":1436372407137,
+        "groupId":-1,
+        "isUserData":true,
+        "x":224.99339990319714,
+        "y":649.4999999999999,
+        "type":{"@ref":2},
+        "score":0.0,
+        "data":";YP_001805846.1;main;BionautNW;master",
+        "label":"YP_001805846.1",
+        "badge":0,
+        "sections":null,
+        "listValues":null,
+        "explainers":null,
+        "views":null,
+        "attributes":{
+          "@type":"java.util.LinkedHashMap"
+        },
+        "buttons":{
+          "@type":"java.util.HashMap"
+        }
+      },
+      {
+        "@id":14,
+        "@type":"gov.pnnl.activedata.data.DataNode",
+        "id":1436372408120,
+        "groupId":-1,
+        "isUserData":true,
+        "x":599.982399741859,
+        "y":1039.1999999999998,
+        "type":{"@ref":2},
+        "score":0.0,
+        "data":";YP_001805502.1;main;BionautNW;master",
+        "label":"YP_001805502.1",
+        "badge":0,
+        "sections":null,
+        "listValues":null,
+        "explainers":null,
+        "views":null,
+        "attributes":{
+          "@type":"java.util.LinkedHashMap"
+        },
+        "buttons":{
+          "@type":"java.util.HashMap"
+        }
+      },
+      {
+        "@id":13,
+        "@type":"gov.pnnl.activedata.data.DataNode",
+        "id":1436372409929,
+        "groupId":-1,
+        "isUserData":true,
+        "x":599.982399741859,
+        "y":259.79999999999995,
+        "type":{"@ref":2},
+        "score":0.0,
+        "data":";YP_001805388.1;main;BionautNW;master",
+        "label":"YP_001805388.1",
+        "badge":0,
+        "sections":null,
+        "listValues":null,
+        "explainers":null,
+        "views":null,
+        "attributes":{
+          "@type":"java.util.LinkedHashMap"
+        },
+        "buttons":{
+          "@type":"java.util.HashMap"
+        }
+      },
+      {
+        "@id":12,
+        "@type":"gov.pnnl.activedata.data.DataNode",
+        "id":1436372411063,
+        "groupId":-1,
+        "isUserData":true,
+        "x":1274.9625994514504,
+        "y":909.2999999999998,
+        "type":{"@ref":2},
+        "score":0.0,
+        "data":";YP_001805026.1;main;BionautNW;master",
+        "label":"YP_001805026.1",
+        "badge":0,
+        "sections":null,
+        "listValues":null,
+        "explainers":null,
+        "views":null,
+        "attributes":{
+          "@type":"java.util.LinkedHashMap"
+        },
+        "buttons":{
+          "@type":"java.util.HashMap"
+        }
+      },
+      {
+        "@id":11,
+        "@type":"gov.pnnl.activedata.data.DataNode",
+        "id":1436372418900,
+        "groupId":-1,
+        "isUserData":true,
+        "x":1424.958199386915,
+        "y":649.4999999999999,
+        "type":{"@ref":3},
+        "score":0.0,
+        "data":";cyt00910;node401;main;BionautNW;master",
+        "label":"cyt00910",
+        "badge":0,
+        "sections":null,
+        "listValues":null,
+        "explainers":null,
+        "views":null,
+        "attributes":{
+          "@type":"java.util.LinkedHashMap"
+        },
+        "buttons":{
+          "@type":"java.util.HashMap"
+        }
+      },
+      {
+        "@id":10,
+        "@type":"gov.pnnl.activedata.data.DataNode",
+        "id":1436372419712,
+        "groupId":-1,
+        "isUserData":true,
+        "x":1499.9559993546475,
+        "y":519.5999999999999,
+        "type":{"@ref":3},
+        "score":0.0,
+        "data":";cyt00710;node401;main;BionautNW;master",
+        "label":"cyt00710",
+        "badge":0,
+        "sections":null,
+        "listValues":null,
+        "explainers":null,
+        "views":null,
+        "attributes":{
+          "@type":"java.util.LinkedHashMap"
+        },
+        "buttons":{
+          "@type":"java.util.HashMap"
+        }
+      },
+      {
+        "@id":9,
+        "@type":"gov.pnnl.activedata.data.DataNode",
+        "id":1436372420783,
+        "groupId":-1,
+        "isUserData":true,
+        "x":149.99559993546475,
+        "y":519.5999999999999,
+        "type":{"@ref":3},
+        "score":0.0,
+        "data":";cyt01100;node401;main;BionautNW;master",
+        "label":"cyt01100",
+        "badge":0,
+        "sections":null,
+        "listValues":null,
+        "explainers":null,
+        "views":null,
+        "attributes":{
+          "@type":"java.util.LinkedHashMap"
+        },
+        "buttons":{
+          "@type":"java.util.HashMap"
+        }
+      },
+      {
+        "@id":8,
+        "@type":"gov.pnnl.activedata.data.DataNode",
+        "id":1436372425233,
+        "groupId":-1,
+        "isUserData":true,
+        "x":1049.9691995482533,
+        "y":1039.1999999999998,
+        "type":{"@ref":6},
+        "score":0.0,
+        "data":"null;node401;29;17;main;BionautNW;master",
+        "label":"node401",
+        "badge":0,
+        "sections":null,
+        "listValues":null,
+        "explainers":null,
+        "views":null,
+        "attributes":{
+          "@type":"java.util.LinkedHashMap"
+        },
+        "buttons":{
+          "@type":"java.util.HashMap"
+        }
       }
     ]
   },
-  "userEdges":null,
+  "userEdges":{
+    "@type":"java.util.ArrayList",
+    "@items":[
+      {
+        "@type":"gov.pnnl.activedata.data.Edge",
+        "id":1436372659052,
+        "sourceNodeID":1436372407137,
+        "targetNodeID":1436372420783,
+        "label":null,
+        "type":{
+          "@id":7,
+          "name":"SOLID",
+          "ordinal":1
+        },
+        "evidenceNodes":null
+      },
+      {
+        "@type":"gov.pnnl.activedata.data.Edge",
+        "id":1436372661286,
+        "sourceNodeID":1436372407137,
+        "targetNodeID":1436372221406,
+        "label":null,
+        "type":{"@ref":7},
+        "evidenceNodes":null
+      },
+      {
+        "@type":"gov.pnnl.activedata.data.Edge",
+        "id":1436372663203,
+        "sourceNodeID":1436372221406,
+        "targetNodeID":1436372408120,
+        "label":null,
+        "type":{"@ref":7},
+        "evidenceNodes":null
+      },
+      {
+        "@type":"gov.pnnl.activedata.data.Edge",
+        "id":1436372665141,
+        "sourceNodeID":1436372408120,
+        "targetNodeID":1436372425233,
+        "label":null,
+        "type":{"@ref":7},
+        "evidenceNodes":null
+      },
+      {
+        "@type":"gov.pnnl.activedata.data.Edge",
+        "id":1436372666746,
+        "sourceNodeID":1436372425233,
+        "targetNodeID":1436372411063,
+        "label":null,
+        "type":{"@ref":7},
+        "evidenceNodes":null
+      },
+      {
+        "@type":"gov.pnnl.activedata.data.Edge",
+        "id":1436372668813,
+        "sourceNodeID":1436372411063,
+        "targetNodeID":1436372418900,
+        "label":null,
+        "type":{"@ref":7},
+        "evidenceNodes":null
+      },
+      {
+        "@type":"gov.pnnl.activedata.data.Edge",
+        "id":1436372670536,
+        "sourceNodeID":1436372418900,
+        "targetNodeID":1436372419712,
+        "label":null,
+        "type":{"@ref":7},
+        "evidenceNodes":null
+      }
+    ]
+  },
   "groups":null
 }
