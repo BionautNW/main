@@ -3,7 +3,7 @@
   "id":1436386173292,
   "name":"main_GrantFujimoto",
   "creationDate":1436386173292,
-  "lastModifiedDate":1436386197160,
+  "lastModifiedDate":1436386250690,
   "users":{
     "@type":"java.util.ArrayList",
     "@items":[
@@ -18,7 +18,7 @@
     "@type":"java.util.ArrayList",
     "@items":[
       {
-        "@id":5,
+        "@id":7,
         "@type":"gov.pnnl.activedata.data.DataNode",
         "id":1436386186503,
         "groupId":-1,
@@ -26,7 +26,7 @@
         "x":1049.9691995482533,
         "y":519.5999999999999,
         "type":{
-          "@id":1,
+          "@id":3,
           "name":"PATHWAY",
           "ordinal":20
         },
@@ -46,7 +46,7 @@
         }
       },
       {
-        "@id":4,
+        "@id":6,
         "@type":"gov.pnnl.activedata.data.DataNode",
         "id":1436386197160,
         "groupId":-1,
@@ -54,13 +54,41 @@
         "x":960.0,
         "y":500.0,
         "type":{
-          "@id":3,
+          "@id":2,
           "name":"PROTEIN",
           "ordinal":17
         },
         "score":0.0,
         "data":";YP_001804837.1;main;BionautNW;master",
         "label":"YP_001804837.1",
+        "badge":0,
+        "sections":null,
+        "listValues":null,
+        "explainers":null,
+        "views":null,
+        "attributes":{
+          "@type":"java.util.HashMap"
+        },
+        "buttons":{
+          "@type":"java.util.HashMap"
+        }
+      },
+      {
+        "@id":5,
+        "@type":"gov.pnnl.activedata.data.DataNode",
+        "id":1436386250690,
+        "groupId":-1,
+        "isUserData":true,
+        "x":960.0,
+        "y":500.0,
+        "type":{
+          "@id":4,
+          "name":"PROTEIN_GROUP",
+          "ordinal":16
+        },
+        "score":0.0,
+        "data":"null;node322;8;6;main;BionautNW;master",
+        "label":"YOLO",
         "badge":0,
         "sections":null,
         "listValues":null,
