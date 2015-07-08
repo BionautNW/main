@@ -3,7 +3,7 @@
   "id":1436221423060,
   "name":"main_plithnar@gmail.com",
   "creationDate":1436221423060,
-  "lastModifiedDate":1436221423060,
+  "lastModifiedDate":1436372221406,
   "users":{
     "@type":"java.util.ArrayList",
     "@items":[
@@ -14,7 +14,95 @@
       }
     ]
   },
-  "userDataNodes":null,
+  "userDataNodes":{
+    "@type":"java.util.ArrayList",
+    "@items":[
+      {
+        "@id":7,
+        "@type":"gov.pnnl.activedata.data.DataNode",
+        "id":1436372215759,
+        "groupId":-1,
+        "isUserData":true,
+        "x":960.0,
+        "y":500.0,
+        "type":{
+          "@id":4,
+          "name":"PROTEIN",
+          "ordinal":17
+        },
+        "score":0.0,
+        "data":";YP_001806157.1;main;BionautNW;master",
+        "label":"YP_001806157.1",
+        "badge":0,
+        "sections":null,
+        "listValues":null,
+        "explainers":null,
+        "views":null,
+        "attributes":{
+          "@type":"java.util.HashMap"
+        },
+        "buttons":{
+          "@type":"java.util.HashMap"
+        }
+      },
+      {
+        "@id":6,
+        "@type":"gov.pnnl.activedata.data.DataNode",
+        "id":1436372218608,
+        "groupId":-1,
+        "isUserData":true,
+        "x":599.982399741859,
+        "y":259.79999999999995,
+        "type":{
+          "@id":2,
+          "name":"PATHWAY",
+          "ordinal":20
+        },
+        "score":0.0,
+        "data":";cyt01120;node386;main;BionautNW;master",
+        "label":"cyt01120",
+        "badge":0,
+        "sections":null,
+        "listValues":null,
+        "explainers":null,
+        "views":null,
+        "attributes":{
+          "@type":"java.util.LinkedHashMap"
+        },
+        "buttons":{
+          "@type":"java.util.HashMap"
+        }
+      },
+      {
+        "@id":5,
+        "@type":"gov.pnnl.activedata.data.DataNode",
+        "id":1436372221406,
+        "groupId":-1,
+        "isUserData":true,
+        "x":524.9845997741267,
+        "y":649.4999999999999,
+        "type":{
+          "@id":1,
+          "name":"PROTEIN_GROUP",
+          "ordinal":16
+        },
+        "score":0.0,
+        "data":"null;node386;80;19;main;BionautNW;master",
+        "label":"node386",
+        "badge":0,
+        "sections":null,
+        "listValues":null,
+        "explainers":null,
+        "views":null,
+        "attributes":{
+          "@type":"java.util.LinkedHashMap"
+        },
+        "buttons":{
+          "@type":"java.util.HashMap"
+        }
+      }
+    ]
+  },
   "userEdges":null,
   "groups":null
 }
