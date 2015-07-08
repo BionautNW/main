@@ -14,7 +14,9 @@
       }
     ]
   },
-  "userDataNodes":null,
+  "userDataNodes":{
+    "@type":"java.util.ArrayList"
+  },
   "userEdges":null,
   "groups":null
 }
