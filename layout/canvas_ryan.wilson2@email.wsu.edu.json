@@ -3,7 +3,7 @@
   "id":1436311717013,
   "name":"main_ryan.wilson2@email.wsu.edu",
   "creationDate":1436311717013,
-  "lastModifiedDate":1436400034880,
+  "lastModifiedDate":1436400332955,
   "users":{
     "@type":"java.util.ArrayList",
     "@items":[
@@ -18,13 +18,13 @@
     "@type":"java.util.ArrayList",
     "@items":[
       {
-        "@id":2,
+        "@id":11,
         "@type":"gov.pnnl.activedata.data.DataNode",
         "id":1436400034880,
         "groupId":-1,
         "isUserData":true,
-        "x":599.982399741859,
-        "y":519.5999999999999,
+        "x":224.99339990319714,
+        "y":389.69999999999993,
         "type":{
           "@id":1,
           "name":"PROTEIN",
@@ -40,6 +40,198 @@
         "views":null,
         "attributes":{
           "@type":"java.util.LinkedHashMap"
+        },
+        "buttons":{
+          "@type":"java.util.HashMap"
+        }
+      },
+      {
+        "@id":10,
+        "@type":"gov.pnnl.activedata.data.DataNode",
+        "id":1436400329057,
+        "groupId":-1,
+        "isUserData":true,
+        "x":960.0,
+        "y":500.0,
+        "type":{"@ref":1},
+        "score":0.0,
+        "data":";YP_001805456.1;main;BionautNW;master",
+        "label":"YP_001805456.1",
+        "badge":0,
+        "sections":null,
+        "listValues":null,
+        "explainers":null,
+        "views":null,
+        "attributes":{
+          "@type":"java.util.HashMap"
+        },
+        "buttons":{
+          "@type":"java.util.HashMap"
+        }
+      },
+      {
+        "@id":9,
+        "@type":"gov.pnnl.activedata.data.DataNode",
+        "id":1436400329588,
+        "groupId":-1,
+        "isUserData":true,
+        "x":960.0,
+        "y":500.0,
+        "type":{"@ref":1},
+        "score":0.0,
+        "data":";YP_001805404.1;main;BionautNW;master",
+        "label":"YP_001805404.1",
+        "badge":0,
+        "sections":null,
+        "listValues":null,
+        "explainers":null,
+        "views":null,
+        "attributes":{
+          "@type":"java.util.HashMap"
+        },
+        "buttons":{
+          "@type":"java.util.HashMap"
+        }
+      },
+      {
+        "@id":8,
+        "@type":"gov.pnnl.activedata.data.DataNode",
+        "id":1436400330206,
+        "groupId":-1,
+        "isUserData":true,
+        "x":960.0,
+        "y":500.0,
+        "type":{"@ref":1},
+        "score":0.0,
+        "data":";YP_001804689.1;main;BionautNW;master",
+        "label":"YP_001804689.1",
+        "badge":0,
+        "sections":null,
+        "listValues":null,
+        "explainers":null,
+        "views":null,
+        "attributes":{
+          "@type":"java.util.HashMap"
+        },
+        "buttons":{
+          "@type":"java.util.HashMap"
+        }
+      },
+      {
+        "@id":7,
+        "@type":"gov.pnnl.activedata.data.DataNode",
+        "id":1436400330673,
+        "groupId":-1,
+        "isUserData":true,
+        "x":960.0,
+        "y":500.0,
+        "type":{"@ref":1},
+        "score":0.0,
+        "data":";YP_001804350.1;main;BionautNW;master",
+        "label":"YP_001804350.1",
+        "badge":0,
+        "sections":null,
+        "listValues":null,
+        "explainers":null,
+        "views":null,
+        "attributes":{
+          "@type":"java.util.HashMap"
+        },
+        "buttons":{
+          "@type":"java.util.HashMap"
+        }
+      },
+      {
+        "@id":6,
+        "@type":"gov.pnnl.activedata.data.DataNode",
+        "id":1436400331156,
+        "groupId":-1,
+        "isUserData":true,
+        "x":960.0,
+        "y":500.0,
+        "type":{"@ref":1},
+        "score":0.0,
+        "data":";YP_001803730.1;main;BionautNW;master",
+        "label":"YP_001803730.1",
+        "badge":0,
+        "sections":null,
+        "listValues":null,
+        "explainers":null,
+        "views":null,
+        "attributes":{
+          "@type":"java.util.HashMap"
+        },
+        "buttons":{
+          "@type":"java.util.HashMap"
+        }
+      },
+      {
+        "@id":5,
+        "@type":"gov.pnnl.activedata.data.DataNode",
+        "id":1436400331672,
+        "groupId":-1,
+        "isUserData":true,
+        "x":960.0,
+        "y":500.0,
+        "type":{"@ref":1},
+        "score":0.0,
+        "data":";YP_001803429.1;main;BionautNW;master",
+        "label":"YP_001803429.1",
+        "badge":0,
+        "sections":null,
+        "listValues":null,
+        "explainers":null,
+        "views":null,
+        "attributes":{
+          "@type":"java.util.HashMap"
+        },
+        "buttons":{
+          "@type":"java.util.HashMap"
+        }
+      },
+      {
+        "@id":4,
+        "@type":"gov.pnnl.activedata.data.DataNode",
+        "id":1436400332157,
+        "groupId":-1,
+        "isUserData":true,
+        "x":960.0,
+        "y":500.0,
+        "type":{"@ref":1},
+        "score":0.0,
+        "data":";YP_001803126.1;main;BionautNW;master",
+        "label":"YP_001803126.1",
+        "badge":0,
+        "sections":null,
+        "listValues":null,
+        "explainers":null,
+        "views":null,
+        "attributes":{
+          "@type":"java.util.HashMap"
+        },
+        "buttons":{
+          "@type":"java.util.HashMap"
+        }
+      },
+      {
+        "@id":3,
+        "@type":"gov.pnnl.activedata.data.DataNode",
+        "id":1436400332955,
+        "groupId":-1,
+        "isUserData":true,
+        "x":960.0,
+        "y":500.0,
+        "type":{"@ref":1},
+        "score":0.0,
+        "data":";YP_001803090.1;main;BionautNW;master",
+        "label":"YP_001803090.1",
+        "badge":0,
+        "sections":null,
+        "listValues":null,
+        "explainers":null,
+        "views":null,
+        "attributes":{
+          "@type":"java.util.HashMap"
         },
         "buttons":{
           "@type":"java.util.HashMap"
