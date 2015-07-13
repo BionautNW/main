@@ -18,10 +18,10 @@
     "@type":"java.util.ArrayList",
     "@items":[
       {
-        "@id":5,
+        "@id":3,
         "@type":"gov.pnnl.activedata.data.DataNode",
         "id":1436812242015,
-        "groupId":1436812285678,
+        "groupId":1436812293822,
         "isUserData":true,
         "x":1199.964799483718,
         "y":519.5999999999999,
@@ -46,7 +46,7 @@
         }
       },
       {
-        "@id":3,
+        "@id":4,
         "@type":"gov.pnnl.activedata.data.DataNode",
         "id":1436812242879,
         "groupId":1436812293822,
@@ -75,7 +75,7 @@
         "id":1436812285678,
         "groupId":-1,
         "isUserData":true,
-        "x":749.9779996773237,
+        "x":1499.9559993546475,
         "y":259.79999999999995,
         "type":{
           "@id":6,
@@ -91,7 +91,7 @@
         "explainers":null,
         "views":null,
         "attributes":{
-          "@type":"java.util.HashMap"
+          "@type":"java.util.LinkedHashMap"
         },
         "buttons":{
           "@type":"java.util.HashMap"
@@ -134,11 +134,11 @@
         "dataNodes":{
           "@type":"java.util.ArrayList",
           "@items":[
-            {"@ref":5}
+            {"@ref":3}
           ]
         },
         "type":{
-          "@id":4,
+          "@id":5,
           "name":"PILE",
           "ordinal":0
         },
@@ -151,10 +151,11 @@
         "dataNodes":{
           "@type":"java.util.ArrayList",
           "@items":[
+            {"@ref":4},
             {"@ref":3}
           ]
         },
-        "type":{"@ref":4},
+        "type":{"@ref":5},
         "note":"#group2"
       }
     ]
