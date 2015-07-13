@@ -1,9 +1,9 @@
 {
   "@type":"gov.pnnl.activedata.data.Canvas",
-  "id":1436386173292,
+  "id":1436811821854,
   "name":"main_GrantFujimoto",
-  "creationDate":1436386173292,
-  "lastModifiedDate":1436386250690,
+  "creationDate":1436811821854,
+  "lastModifiedDate":1436811821854,
   "users":{
     "@type":"java.util.ArrayList",
     "@items":[
@@ -14,95 +14,7 @@
       }
     ]
   },
-  "userDataNodes":{
-    "@type":"java.util.ArrayList",
-    "@items":[
-      {
-        "@id":7,
-        "@type":"gov.pnnl.activedata.data.DataNode",
-        "id":1436386186503,
-        "groupId":-1,
-        "isUserData":true,
-        "x":1049.9691995482533,
-        "y":519.5999999999999,
-        "type":{
-          "@id":3,
-          "name":"PATHWAY",
-          "ordinal":20
-        },
-        "score":0.0,
-        "data":";cyt00630;node322;main;BionautNW;master",
-        "label":"cyt00630",
-        "badge":0,
-        "sections":null,
-        "listValues":null,
-        "explainers":null,
-        "views":null,
-        "attributes":{
-          "@type":"java.util.LinkedHashMap"
-        },
-        "buttons":{
-          "@type":"java.util.HashMap"
-        }
-      },
-      {
-        "@id":6,
-        "@type":"gov.pnnl.activedata.data.DataNode",
-        "id":1436386197160,
-        "groupId":-1,
-        "isUserData":true,
-        "x":960.0,
-        "y":500.0,
-        "type":{
-          "@id":2,
-          "name":"PROTEIN",
-          "ordinal":17
-        },
-        "score":0.0,
-        "data":";YP_001804837.1;main;BionautNW;master",
-        "label":"YP_001804837.1",
-        "badge":0,
-        "sections":null,
-        "listValues":null,
-        "explainers":null,
-        "views":null,
-        "attributes":{
-          "@type":"java.util.HashMap"
-        },
-        "buttons":{
-          "@type":"java.util.HashMap"
-        }
-      },
-      {
-        "@id":5,
-        "@type":"gov.pnnl.activedata.data.DataNode",
-        "id":1436386250690,
-        "groupId":-1,
-        "isUserData":true,
-        "x":960.0,
-        "y":500.0,
-        "type":{
-          "@id":4,
-          "name":"PROTEIN_GROUP",
-          "ordinal":16
-        },
-        "score":0.0,
-        "data":"null;node322;8;6;main;BionautNW;master",
-        "label":"YOLO",
-        "badge":0,
-        "sections":null,
-        "listValues":null,
-        "explainers":null,
-        "views":null,
-        "attributes":{
-          "@type":"java.util.HashMap"
-        },
-        "buttons":{
-          "@type":"java.util.HashMap"
-        }
-      }
-    ]
-  },
+  "userDataNodes":null,
   "userEdges":null,
   "groups":null
 }
