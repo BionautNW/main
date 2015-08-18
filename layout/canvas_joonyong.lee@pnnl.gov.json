@@ -3,7 +3,7 @@
   "id":1435181333987,
   "name":"main_joonyong.lee@pnnl.gov",
   "creationDate":1435181333987,
-  "lastModifiedDate":1435181333987,
+  "lastModifiedDate":1439938655019,
   "users":{
     "@type":"java.util.ArrayList",
     "@items":[
@@ -14,7 +14,39 @@
       }
     ]
   },
-  "userDataNodes":null,
+  "userDataNodes":{
+    "@type":"java.util.ArrayList",
+    "@items":[
+      {
+        "@id":3,
+        "@type":"gov.pnnl.activedata.data.DataNode",
+        "id":1439938655019,
+        "groupId":-1,
+        "isUserData":true,
+        "x":943.0,
+        "y":659.0,
+        "type":{
+          "@id":2,
+          "name":"PROTEIN",
+          "ordinal":17
+        },
+        "score":0.0,
+        "data":"undefined;YP_001803316;main;BionautNW;master",
+        "label":"gltA",
+        "badge":0,
+        "sections":null,
+        "listValues":null,
+        "explainers":null,
+        "views":null,
+        "attributes":{
+          "@type":"java.util.LinkedHashMap"
+        },
+        "buttons":{
+          "@type":"java.util.HashMap"
+        }
+      }
+    ]
+  },
   "userEdges":null,
   "groups":null
 }
