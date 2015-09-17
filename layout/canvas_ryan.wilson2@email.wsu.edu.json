@@ -3,7 +3,7 @@
   "id":1436311717013,
   "name":"main_ryan.wilson2@email.wsu.edu",
   "creationDate":1436311717013,
-  "lastModifiedDate":1442520069214,
+  "lastModifiedDate":1442520141526,
   "users":{
     "@type":"java.util.ArrayList",
     "@items":[
@@ -15,7 +15,61 @@
     ]
   },
   "userDataNodes":{
-    "@type":"java.util.ArrayList"
+    "@type":"java.util.ArrayList",
+    "@items":[
+      {
+        "@type":"gov.pnnl.activedata.data.DataNode",
+        "id":1442520078412,
+        "groupId":-1,
+        "isUserData":true,
+        "x":374.98899983866187,
+        "y":389.69999999999993,
+        "type":{
+          "name":"PROTEIN",
+          "ordinal":17
+        },
+        "score":0.0,
+        "data":";YP_001806381.1;main;BionautNW;master",
+        "label":"YP_001806381.1",
+        "badge":0,
+        "sections":null,
+        "listValues":null,
+        "explainers":null,
+        "views":null,
+        "attributes":{
+          "@type":"java.util.LinkedHashMap"
+        },
+        "buttons":{
+          "@type":"java.util.HashMap"
+        }
+      },
+      {
+        "@type":"gov.pnnl.activedata.data.DataNode",
+        "id":1442520141526,
+        "groupId":-1,
+        "isUserData":true,
+        "x":960.0,
+        "y":497.5,
+        "type":{
+          "name":"TEXT",
+          "ordinal":0
+        },
+        "score":0.0,
+        "data":";human;main;BionautNW;master;main;BionautNW;master",
+        "label":"human",
+        "badge":0,
+        "sections":null,
+        "listValues":null,
+        "explainers":null,
+        "views":null,
+        "attributes":{
+          "@type":"java.util.LinkedHashMap"
+        },
+        "buttons":{
+          "@type":"java.util.HashMap"
+        }
+      }
+    ]
   },
   "userEdges":null,
   "groups":null
