@@ -3,7 +3,7 @@
   "id":1436311717013,
   "name":"main_ryan.wilson2@email.wsu.edu",
   "creationDate":1436311717013,
-  "lastModifiedDate":1442525881289,
+  "lastModifiedDate":1442609127417,
   "users":{
     "@type":"java.util.ArrayList",
     "@items":[
@@ -18,6 +18,7 @@
     "@type":"java.util.ArrayList",
     "@items":[
       {
+        "@id":12,
         "@type":"gov.pnnl.activedata.data.DataNode",
         "id":1442525872658,
         "groupId":-1,
@@ -25,6 +26,7 @@
         "x":1349.9603994191827,
         "y":259.79999999999995,
         "type":{
+          "@id":5,
           "name":"PATHWAY",
           "ordinal":20
         },
@@ -44,13 +46,15 @@
         }
       },
       {
+        "@id":11,
         "@type":"gov.pnnl.activedata.data.DataNode",
         "id":1442525874887,
         "groupId":-1,
         "isUserData":true,
-        "x":449.9867998063943,
-        "y":779.3999999999999,
+        "x":674.9801997095914,
+        "y":389.69999999999993,
         "type":{
+          "@id":2,
           "name":"PROTEIN",
           "ordinal":17
         },
@@ -70,6 +74,7 @@
         }
       },
       {
+        "@id":10,
         "@type":"gov.pnnl.activedata.data.DataNode",
         "id":1442525876346,
         "groupId":-1,
@@ -77,6 +82,7 @@
         "x":974.9713995805209,
         "y":389.69999999999993,
         "type":{
+          "@id":6,
           "name":"PROTEIN_GROUP",
           "ordinal":16
         },
@@ -96,7 +102,7 @@
         }
       },
       {
-        "@id":2,
+        "@id":9,
         "@type":"gov.pnnl.activedata.data.DataNode",
         "id":1442525881289,
         "groupId":-1,
@@ -104,13 +110,40 @@
         "x":374.98899983866187,
         "y":389.69999999999993,
         "type":{
-          "@id":1,
+          "@id":7,
           "name":"PATIENT_GROUP",
           "ordinal":18
         },
         "score":0.0,
         "data":"null;node8;3;0;main;BionautNW;master",
         "label":"node8",
+        "badge":0,
+        "sections":null,
+        "listValues":null,
+        "explainers":null,
+        "views":null,
+        "attributes":{
+          "@type":"java.util.LinkedHashMap"
+        },
+        "buttons":{
+          "@type":"java.util.HashMap"
+        }
+      },
+      {
+        "@id":8,
+        "@type":"gov.pnnl.activedata.data.DataNode",
+        "id":1442609127417,
+        "groupId":-1,
+        "isUserData":true,
+        "x":674.9801997095914,
+        "y":649.4999999999999,
+        "type":{
+          "name":"TEXT",
+          "ordinal":0
+        },
+        "score":0.0,
+        "data":"human;human;main;BionautNW;master",
+        "label":"pubmed",
         "badge":0,
         "sections":null,
         "listValues":null,
