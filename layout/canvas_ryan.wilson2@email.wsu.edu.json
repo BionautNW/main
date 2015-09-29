@@ -26,7 +26,7 @@
         "x":1349.9603994191827,
         "y":259.79999999999995,
         "type":{
-          "@id":1,
+          "@id":4,
           "name":"PATHWAY",
           "ordinal":20
         },
@@ -82,7 +82,7 @@
         "x":974.9713995805209,
         "y":389.69999999999993,
         "type":{
-          "@id":2,
+          "@id":1,
           "name":"PROTEIN_GROUP",
           "ordinal":16
         },
@@ -164,7 +164,7 @@
         "isUserData":true,
         "x":960.0,
         "y":497.5,
-        "type":{"@ref":1},
+        "type":{"@ref":4},
         "score":0.0,
         "data":";cyt00630;node376;main;BionautNW;master",
         "label":"cyt00630",
