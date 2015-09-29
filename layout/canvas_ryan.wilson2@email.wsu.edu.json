@@ -18,7 +18,7 @@
     "@type":"java.util.ArrayList",
     "@items":[
       {
-        "@id":9,
+        "@id":13,
         "@type":"gov.pnnl.activedata.data.DataNode",
         "id":1442525872658,
         "groupId":-1,
@@ -46,7 +46,7 @@
         }
       },
       {
-        "@id":8,
+        "@id":12,
         "@type":"gov.pnnl.activedata.data.DataNode",
         "id":1442525874887,
         "groupId":-1,
@@ -54,7 +54,7 @@
         "x":674.9801997095914,
         "y":389.69999999999993,
         "type":{
-          "@id":5,
+          "@id":7,
           "name":"PROTEIN",
           "ordinal":17
         },
@@ -74,7 +74,7 @@
         }
       },
       {
-        "@id":7,
+        "@id":11,
         "@type":"gov.pnnl.activedata.data.DataNode",
         "id":1442525876346,
         "groupId":-1,
@@ -102,7 +102,7 @@
         }
       },
       {
-        "@id":6,
+        "@id":10,
         "@type":"gov.pnnl.activedata.data.DataNode",
         "id":1442525881289,
         "groupId":-1,
@@ -130,6 +130,7 @@
         }
       },
       {
+        "@id":9,
         "@type":"gov.pnnl.activedata.data.DataNode",
         "id":1442609127417,
         "groupId":-1,
@@ -156,6 +157,7 @@
         }
       },
       {
+        "@id":8,
         "@type":"gov.pnnl.activedata.data.DataNode",
         "id":1443113797344,
         "groupId":-1,
