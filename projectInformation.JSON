@@ -1,0 +1,30 @@
+{
+  "repo": "main",
+  "owner": "BionautNW",
+  "branch": "master",
+  "projectTitle": "main",
+  "description": "main dataset",
+  "collaborators": [
+    {
+      "name": "coldfire79",
+      "email": "joonyong.lee@pnnl.gov"
+    },
+    {
+      "name": "Tweety79rw",
+      "email": "ryan.wilson2@email.wsu.edu"
+    },
+    {
+      "name": "Samuel Payne",
+      "email": "samuel.payne@pnnl.gov"
+    },
+    {
+      "name": "pnnlguest",
+      "email": "pnnl.guest@gmail.com"
+    }
+  ],
+  "contactInfo": {
+    "name": "Samuel Payne",
+    "email": "Samuel.payne@pnnl.gov",
+    "organization": "Pacific Northwest National Laboratory, Richland WA, USA"
+  }
+}
